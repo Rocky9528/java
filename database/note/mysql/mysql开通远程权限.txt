@@ -1,0 +1,17 @@
+localhost改远程登录
+mysql -u root -p                  //这是登录
+mysql>use mysql;                 //
+mysql>update user set host = '%' where user = 'root';  //  我的数据库有多行root的记录，只需要改其中一条，如host为localhost行的记录
+mysql>select host, user from user;      
+
+d:\mysql\bin\>mysql -h localhost -u root
+mysql>GRANT ALL PRIVILEGES ON *.* TO 'root'@'%'WITH GRANT OPTION;
+mysql>FLUSH PRIVILEGES;
+mysql>EXIT;   
+
+
+远程登录改localhost登录
+d:\mysql\bin\>mysql -h localhost -u root
+mysql>GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost'WITH GRANT OPTION;
+mysql>FLUSH PRIVILEGES;
+mysql>EXIT;  

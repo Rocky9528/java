@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="HikariCP-3.4.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../数据库连接池/hikariCP/HikariCP-3.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

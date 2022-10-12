@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="apidocs">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../数据库连接池/工具类/commons-dbutils-1.7-bin.zip!/commons-dbutils-1.7/apidocs" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
