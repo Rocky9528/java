@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7c35a6e-d4b4-4d18-82ad-c6b6f205b29b" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="e7c35a6e-d4b4-4d18-82ad-c6b6f205b29b" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/../spring_study/.idea/artifacts/spring_study_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_study/.idea/libraries/commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_study/.idea/libraries/spring_beans_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_study/.idea/libraries/spring_context_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_study/.idea/libraries/spring_core_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_study/.idea/libraries/spring_expression_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_study/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_study/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_study/out/production/spring_study/com/mashibing/test/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_study/out/production/spring_study/com/mashibing/test/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_study/out/production/spring_study/ioc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_study/out/production/spring_study/ioc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_study/spring_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_study/spring_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_study/src/com/mashibing/test/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_study/src/com/mashibing/test/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_study/src/ioc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_study/src/ioc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +28,6 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -23,6 +35,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -36,6 +51,9 @@
         <option value="$PROJECT_DIR$/src/com/mashibing/test/MyTest.java" />
       </list>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -51,6 +69,8 @@
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectId" id="2GGXi9j7v9H6yun1hdNPZ1WIi1f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -123,27 +143,22 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring_study" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -182,12 +197,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.MyTest" />
-      </list>
-    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -199,6 +210,8 @@
       <option name="presentableId" value="Default" />
       <updated>1581148044307</updated>
       <workItem from="1581148045677" duration="2633000" />
+      <workItem from="1666016020603" duration="1389000" />
+      <workItem from="1666104399701" duration="133000" />
     </task>
     <servers />
   </component>
@@ -244,7 +257,18 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/mashibing/service/UserService.java">

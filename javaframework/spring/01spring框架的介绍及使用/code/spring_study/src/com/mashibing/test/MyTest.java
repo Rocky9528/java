@@ -1,8 +1,14 @@
 package com.mashibing.test;
 
 import com.mashibing.bean.Person;
+import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+import java.io.Console;
+import java.util.Locale;
+import java.util.Scanner;
 
 //容器中的person对象是什么时候创建的？
 //容器中的对象在容器创建完成之前就已经把对象创建好了
@@ -16,11 +22,23 @@ public class MyTest {
         *
         *
         * * */
-        ApplicationContext context = new ClassPathXmlApplicationContext("ioc.xml");
-        //获取具体的bean实例对象，需要进行强制类型转换
-//        Person person = (Person) context.getBean("person");
-        //获取对象的时候不需要强制类型转换
-//        Person person = context.getBean("person", Person.class);
-//        System.out.println(person);
+        try {
+
+            ApplicationContext context = new ClassPathXmlApplicationContext("ioc.xml");
+            System.out.println( context.getBean("person").toString());
+            System.out.println( context.getBean("person1").toString());
+
+
+            //获取具体的bean实例对象，需要进行强制类型转换
+            Person person = (Person)context.getBean("person");
+            System.out.println(person);
+            //获取对象的时候不需要强制类型转换
+            Person person1 = context.getBean("person", Person.class);
+            System.out.println(person1);
+
+        } catch (BeansException e) {
+            e.printStackTrace();
+        }
+
     }
 }
