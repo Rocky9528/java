@@ -7,31 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3870e37d-8f43-4cb9-8217-824f86447d4b" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_study_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_beans_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_context_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_core_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_expression_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_study_maven/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_study_maven/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_study_maven/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_study_maven/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_study_maven/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_study_maven/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_study_maven/src/main/java/com/rocky/bean/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_study_maven/src/main/java/com/rocky/test/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_study_maven/src/main/resources/ioc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../why_ioc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_study_maven/src/main/java/com/rocky/bean/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_study_maven/src/main/java/com/rocky/bean/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_study_maven/src/main/resources/pro.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring_study/com/mashibing/test/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring_study/com/mashibing/test/MyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring_study/ioc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring_study/ioc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mashibing/test/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mashibing/test/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ioc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ioc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../why_ioc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../why_ioc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_study_maven/src/main/java/com/rocky/bean/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_study_maven/src/main/java/com/rocky/bean/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_study_maven/src/main/java/com/rocky/test/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_study_maven/src/main/java/com/rocky/test/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_study_maven/src/main/resources/ioc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_study_maven/src/main/resources/ioc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_study_maven/target/classes/com/rocky/bean/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_study_maven/target/classes/com/rocky/bean/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_study_maven/target/classes/com/rocky/test/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_study_maven/target/classes/com/rocky/test/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_study_maven/target/classes/ioc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_study_maven/target/classes/ioc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +133,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring_study_maven" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="库" />
@@ -221,6 +206,8 @@
       <workItem from="1666104538508" duration="775000" />
       <workItem from="1666186449355" duration="5643000" />
       <workItem from="1666193540090" duration="924000" />
+      <workItem from="1666272271253" duration="598000" />
+      <workItem from="1666422636644" duration="2081000" />
     </task>
     <servers />
   </component>

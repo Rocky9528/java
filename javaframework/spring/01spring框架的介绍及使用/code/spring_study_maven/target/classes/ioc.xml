@@ -1,11 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:util="http://www.springframework.org/schema/util"
 
-       <bean id="person" class="com.rocky.bean.Person">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util
+       https://www.springframework.org/schema/util/spring-util.xsd">
+
+       <bean id="person1" class="com.rocky.bean.Person">
            <property name="id" value="1"></property>
-           <property name="name" value="zhangsan"></property>
-           <property name="age" value="18"></property>
+           <property name="name" value="zhangsan1"></property>
+           <property name="age" value="11"></property>
        </bean>
+
+    <bean id="person2-1" class="com.rocky.bean.Person">
+        <constructor-arg name="age" value="2"></constructor-arg>
+        <constructor-arg name="name" value="gouzhao2"></constructor-arg>
+        <constructor-arg name="id" value="0"></constructor-arg>
+        <constructor-arg name="gender" value="xx"></constructor-arg>
+    </bean>
+
+    <bean id="person2-2" class="com.rocky.bean.Person" >
+        <constructor-arg value="1"></constructor-arg>
+        <constructor-arg value="gouzhao1"></constructor-arg>
+        <constructor-arg value="1"></constructor-arg>
+        <constructor-arg value="hah"></constructor-arg>
+    </bean>
+
+    <bean id="person2-3" class="com.rocky.bean.Person">
+        <constructor-arg value="gaozhao5" index="1"    ></constructor-arg>
+        <constructor-arg value="xx" index="3" ></constructor-arg>
+        <constructor-arg value="3" index="0"></constructor-arg>
+        <constructor-arg value="3" index="2"></constructor-arg>
+
+    </bean>
+
+    <bean id="person2-4" class="com.rocky.bean.Person" >
+        <constructor-arg value="1" type="java.lang.Integer"></constructor-arg>
+        <constructor-arg value="11" type="java.lang.Integer" ></constructor-arg>
+        <constructor-arg value="gouzhao6" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="xx" type="java.lang.String"></constructor-arg>
+    </bean>
+
+    <bean id="person3" class="com.rocky.bean.Person">
+        <property name="id" ><null></null></property>
+        <property name="name" value="zhangsan1"></property>
+        <property name="age" value="11"></property>
+        <property name="address" ref="address"></property>
+        <property name="hobbies" >
+            <array>
+                <value>xx</value>
+                <value>11</value>
+            </array>
+        </property>
+        <property name="books" >
+            <list>
+                <!--内部bean-->
+                <bean id="book1" class="com.rocky.bean.Book">
+                    <property name="name" value="好书test"></property>
+                    <property name="author"><null></null></property>
+                    <property name="price" value="100"></property>
+                </bean>
+                <!--外部bean-->
+                <ref bean="book1"></ref>
+            </list>
+        </property>
+        <property name="maps" ref="myMap1"></property>
+    </bean>
+
+    <bean id="person4" class="com.rocky.bean.Person" c:id="3" c:name="xx" c:age="22" c:gender="男"></bean>
+
+    <bean id="person5" class="com.rocky.bean.Person" p:id="3" p:name="xx" p:age="22" p:gender="男" p:address-ref="address"   p:hobbies-ref="hobbies"
+    p:books-ref="myBooks" p:sets-ref="mySet" p:maps-ref="myMap1" p:properties-ref="properties1"
+    >
+
+<!--                &lt;!&ndash;级联属性&ndash;&gt;-->
+<!--        <property name="address" ref="address"></property>-->
+<!--        <property name="address.province" value="北京"></property>-->
+
+        <!-- 使用set、list也都行 也会自动转为array 。 因为array、set、list结构都一样 -->
+<!--        <property name="hobbies">-->
+<!--<array>-->
+<!--    <value>hobbies1</value>-->
+<!--    <value>hobbies2</value>-->
+<!--</array>-->
+<!--        </property>-->
+    </bean>
+
+    <!--parent:指定bean的配置信息继承于哪个bean-->
+    <bean id="person6" class="com.rocky.bean.Person" parent="person5" p:name="继承重命名"></bean>
+
+    <!-- 如果想实现Java文件的抽象类，不需要将当前bean实例化的话，可以使用abstract属性 -->
+    <bean id="person7" class="com.rocky.bean.Person" abstract="true">
+        <property name="id" value="1"></property>
+        <property name="name" value="zhangsan"></property>
+        <property name="age" value="21"></property>
+        <property name="gender" value="男"></property>
+    </bean>
+    <!--parent:指定bean的配置信息继承于哪个bean-->
+    <bean id="person8" class="com.rocky.bean.Person" parent="person7">
+        <property name="name" value="lisi"></property>
+    </bean>
+
+    <bean id="address" class="com.rocky.bean.Address">
+        <property name="city" value="珠海"></property>
+        <property name="province" value="广东省"></property>
+        <property name="town" ><null></null></property>
+    </bean>
+
+    <!-- hobbies使用set也行 array、set、list结构都一样 会自动转换-->
+   <util:list id="hobbies">
+           <value>hobbies3</value>
+           <value>hobbies4</value>
+   </util:list>
+
+    <!-- 使用set也行   -->
+    <util:list id="myBooks">
+        <ref bean="book1"></ref>
+        <ref bean="book2"></ref>
+        <bean class="com.rocky.bean.Book">
+            <property name="name" value="哈哈"></property>
+        </bean>
+    </util:list>
+
+    <bean id="book1" class="com.rocky.bean.Book">
+        <property name="name" value="好书1"></property>
+        <property name="author"><null></null></property>
+        <property name="price" value="200"></property>
+    </bean>
+
+    <bean id="book2" class="com.rocky.bean.Book">
+        <property name="name" value="好书2"></property>
+        <property name="author"><null></null></property>
+        <property name="price" value="200"></property>
+    </bean>
+
+    <!-- 使用list也行 -->
+    <util:set id="mySet"  >
+        <value>1</value>
+        <value>2</value>
+    </util:set>
+
+    <!-- 使用properties也行 因为map、properties结构一样  但properties 的value只能简单类型-->
+    <util:map id="myMap1">
+        <entry key="key1" value="value1"></entry>
+        <entry key="key2" value-ref="book1"></entry>
+        <entry key="key3">
+            <bean class="com.rocky.bean.Book">
+                <property name="name" value="哈哈书"></property>
+                <property name="price" value="1001"></property>
+                <property name="author"><null></null></property>
+            </bean>
+        </entry>
+    </util:map>
+
+    <util:properties id="myMap2">
+        <prop key="key1">value1</prop>
+        <prop key="key2">value2</prop>
+    </util:properties>
+
+    <util:properties id="properties1" location="classpath:pro.properties">
+        <prop key="age">99</prop>
+    </util:properties>
+
+    <util:map id="properties2" >
+        <entry key="age" value="100"></entry>
+    </util:map>
+
+    <util:constant id="constant1" static-field="com.rocky.bean.Person.constantName"></util:constant>
+
+    <util:property-path id="propertypath" path="person5.books"></util:property-path>
+
+
+
+
 </beans>
