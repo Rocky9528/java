@@ -2,9 +2,9 @@ package com.mashibing.controller;
 
 import com.mashibing.dao.PersonDao;
 import com.mashibing.service.PersonService;
-import com.mashibing.service.PersonService2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Controller;
 
 import javax.annotation.Resource;
@@ -36,13 +36,39 @@ public class PersonController {
 //    @Qualifier("personService")
     private PersonService personService;
 
+    @Autowired
+    @Qualifier("personDao")
+    PersonDao personDao;
+
+    @Autowired
+    @Qualifier("personDao2")
+    PersonDao personDao2;
+
+    @Autowired
+    @Qualifier("personDao3")
+    @Nullable
+    PersonDao personDao3;
+
+
+
     public void save() {
+        System.out.println("执行PersonController 的save");
         personService.save();
+
     }
 
-//    @Autowired
-//    public void test(@Qualifier("personDao") PersonDao personDao123) {
-//        System.out.println("test");
-//        personDao123.update();
-//    }
+    @Autowired
+    public void test(@Qualifier("personDao") PersonDao personDao123,@Nullable String str) {
+        System.out.println("test,personDao123:"+personDao123+",str:"+str);
+        personDao123.update();
+        System.out.println("personDao:"+personDao+";  personDao2:"+personDao2+";  personDao3:"+personDao3);
+    }
+
+    public void test1(PersonDao personDao123) {
+        System.out.println("test1");
+        personDao123.update();
+        System.out.println("personDao:"+personDao+";  personDao2:"+personDao2+";  personDao4:"+personDao3);
+    }
+
+
 }

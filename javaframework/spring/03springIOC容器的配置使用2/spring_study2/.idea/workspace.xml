@@ -1,10 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfe33eac-dfae-4221-b5c0-73450addb4ae" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="bfe33eac-dfae-4221-b5c0-73450addb4ae" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/src/main/java/com/rocky/bean/MyBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/src/main/java/com/rocky/factory/MyFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/src/main/java/com/rocky/factory/PersonInstanceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/src/main/java/com/rocky/factory/PersonStaticFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/controller/TeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/dao/PersonDao2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05SpringAOP的引入及配置使用/code/spring_aop_study/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/src/main/java/com/mashibing/proxy/LogMethodInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/src/main/java/com/rocky/bean/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/src/main/java/com/rocky/bean/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/src/main/java/com/rocky/test/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/src/main/java/com/rocky/test/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/src/main/resources/ioc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/src/main/resources/ioc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/target/classes/com/rocky/bean/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/target/classes/com/rocky/bean/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/target/classes/com/rocky/test/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/target/classes/com/rocky/test/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/target/classes/ioc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01spring框架的介绍及使用/code/spring_study_maven/target/classes/ioc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01spring框架的介绍及使用/note/02spring IOC基本使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../01spring框架的介绍及使用/note/02spring IOC基本使用.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/bean/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/bean/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/dao/PersonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/dao/PersonDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/dao/TeacherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/dao/TeacherDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/service/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/service/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/java/com/mashibing/service/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/META-INF/spring_annotation_study.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/bean/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/bean/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/bean/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/bean/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/controller/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/dao/BaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/dao/BaseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/dao/PersonDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/dao/PersonDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/dao/StudentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/dao/TeacherDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/dao/TeacherDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/service/BaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/service/BaseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/service/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/service/PersonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/service/PersonService2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/service/PersonService2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/service/TeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/classes/com/mashibing/service/TeacherService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04SpringIOC的注解使用/code/spring_annotation_study/target/test-classes/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05SpringAOP的引入及配置使用/code/spring_aop_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05SpringAOP的引入及配置使用/code/spring_aop_study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06SpringAOP的详细讲解/code/spring_aop_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../06SpringAOP的详细讲解/code/spring_aop_study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/src/main/java/com/mashibing/proxy/CalculatorProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/src/main/java/com/mashibing/proxy/CalculatorProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/src/main/java/com/mashibing/proxy/DynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/src/main/java/com/mashibing/proxy/DynamicProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/src/main/java/com/mashibing/service/MyCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/src/main/java/com/mashibing/service/MyCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/src/main/java/com/mashibing/util/LogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/src/main/java/com/mashibing/util/LogUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/src/main/java/com/mashibing/util/SecurityUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/src/main/java/com/mashibing/util/SecurityUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/src/main/resources/aop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/src/main/resources/aop.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/target/classes/META-INF/spring_aop_study.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/target/classes/aop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/target/classes/aop.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/target/classes/com/mashibing/proxy/CalculatorProxy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/target/classes/com/mashibing/proxy/CalculatorProxy$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/target/classes/com/mashibing/proxy/DynamicProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/target/classes/com/mashibing/proxy/DynamicProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/target/classes/com/mashibing/service/MyCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/target/classes/com/mashibing/service/MyCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/target/classes/com/mashibing/util/LogUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/target/classes/com/mashibing/util/LogUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/target/classes/com/mashibing/util/SecurityUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/target/classes/com/mashibing/util/SecurityUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study/target/test-classes/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_tx/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_tx/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_tx/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_tx/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/src/main/java/com/mashibing/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/src/main/java/com/mashibing/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/src/main/java/com/mashibing/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/src/main/java/com/mashibing/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/target/classes/META-INF/spring_aop_tx.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/target/classes/com/mashibing/dao/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/target/classes/com/mashibing/dao/BookDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/target/classes/com/mashibing/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/target/classes/com/mashibing/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/target/test-classes/META-INF/spring_aop_tx.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../09动态代理源码分析/spring_aop_tx/target/test-classes/MyTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,46 +102,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ioc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33">
-              <caret line="266" column="27" lean-forward="true" selection-start-line="266" selection-start-column="27" selection-end-line="266" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/bean/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="145" column="28" lean-forward="true" selection-start-line="145" selection-start-column="28" selection-end-line="145" selection-end-column="28" />
-              <folding>
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#1098#1099#0" expanded="true" />
-                <element signature="e#1147#1148#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,6 +115,9 @@
     <findStrings>
       <find>root</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -83,6 +135,9 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -90,17 +145,14 @@
         <option name="userSettingsFile" value="C:\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="95" />
     <option name="width" value="1675" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectId" id="2GWIDgpRnHB4Hr6WRBGHGLATq5x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -190,9 +242,14 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../07SpringAOP的详细讲解2/spring_aop_study" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -205,18 +262,6 @@
       <recent name="D:\IdeaProjects\spring_study2\src\main\resources" />
       <recent name="D:\IdeaProjects\spring_study2\src" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -249,12 +294,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.MyTest" />
-      </list>
-    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
@@ -269,6 +310,8 @@
       <option name="presentableId" value="Default" />
       <updated>1581163448511</updated>
       <workItem from="1581163451022" duration="14997000" />
+      <workItem from="1666497796797" duration="7570000" />
+      <workItem from="1667040712150" duration="39000" />
     </task>
     <servers />
   </component>
@@ -350,7 +393,18 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="uml://JAVA/org.springframework.context.ApplicationContext">

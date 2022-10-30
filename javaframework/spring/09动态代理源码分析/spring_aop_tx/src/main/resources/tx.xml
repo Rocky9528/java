@@ -44,9 +44,10 @@
         <!--配置事务的属性-->
         <tx:attributes>
             <!--配置在哪些方法上添加事务-->
-            <tx:method name="*" propagation="REQUIRED" read-only="true" isolation="DEFAULT"/>
-            <tx:method name="updatePrice" propagation="REQUIRED"></tx:method>
-            <tx:method name="update*" propagation="REQUIRED"></tx:method>
+            <tx:method name="*" propagation="REQUIRED"  isolation="DEFAULT"  /> <!--read-only="true"-->  <!--no-rollback-for="ArithmeticException"-->
+<!--            <tx:method name="updatePrice" propagation="REQUIRED"></tx:method>-->
+<!--            <tx:method name="update*" propagation="REQUIRED"></tx:method>-->
+<!--            <tx:method name="buyBook" propagation="REQUIRED"></tx:method>-->
         </tx:attributes>
     </tx:advice>
 </beans>

@@ -32,19 +32,19 @@ public class CalculatorProxy {
                 Object result = null;
                 try{
 //                     System.out.println(method.getName()+"方法开始执行，参数列表是："+ Arrays.asList(args));
-//                    LogUtil.start(method,args);
+//                    LogUtil.start1(method,args);
                     //开始调用被代理类的方法
                     //start
                     result = method.invoke(calculator,args);
                     //end
 //                    System.out.println(method.getName()+"方法执行完成，结果是："+result);
-//                    LogUtil.stop(method,result);
+//                    LogUtil.stop1(method,args);
                 }catch (Exception e){
 //                    System.out.println(method.getName()+"方法抛出异常："+e.getMessage());
 //                    LogUtil.logException(method,e);
                 }finally {
 //                    System.out.println(method.getName()+"方法执行结束。。。。。over");
-//                    LogUtil.logFinally(method);
+//                    LogUtil.logFinally1(method,args);
                 }
                 return result;
             }

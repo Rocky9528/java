@@ -2,6 +2,7 @@ package com.mashibing.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
@@ -12,6 +13,7 @@ public class MultService {
 
     @Transactional
     public void mult(){
+
         try {
             bookService.buyBook();
         } catch (Exception e) {
@@ -19,7 +21,8 @@ public class MultService {
         }
         System.out.println("----------");
         bookService.updatePrice();
-        int i = 1/0;
+        System.out.println("xxxxxxxxxx");
+//        int i = 1/0;
     }
 
 //    @Transactional

@@ -2,6 +2,7 @@ package com.mashibing.service;
 
 import com.mashibing.dao.BookDao;
 import com.mashibing.entity.Emp;
+import org.aspectj.internal.lang.reflect.StringToType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
@@ -31,15 +32,22 @@ public class BookService {
      * rollBackfor:
      * rollbackForClassName
      * */
-    @Transactional(propagation = Propagation.REQUIRES_NEW)
-    public void buyBook() {
-        bookDao.getPrice(1);
+    @Transactional(propagation = Propagation.NESTED)
+    public void buyBook()  {
+
+        int price = bookDao.getPrice(1);
         bookDao.updateBalance("zhangsan", 100);
+        System.out.println("updateBalance");
         bookDao.updateStock(1);
+        System.out.println("updateStock");
+
+        bookDao.updatePrice(1);
+
         int i = 1 / 0;
+
     }
 
-    @Transactional(propagation = Propagation.REQUIRES_NEW)
+    @Transactional(propagation = Propagation.REQUIRED)
     public void updatePrice() {
         bookDao.updatePrice(1);
 //        int i = 1/0;

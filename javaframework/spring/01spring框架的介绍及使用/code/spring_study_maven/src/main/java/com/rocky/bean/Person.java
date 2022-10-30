@@ -1,5 +1,6 @@
 package com.rocky.bean;
 
+import javax.swing.*;
 import java.util.*;
 
 public class Person {
@@ -97,24 +98,6 @@ public class Person {
         this.properties = properties;
     }
 
-    public Person() {
-        System.out.println("构造Person");
-    }
-
-    public Person(Integer id, String name, Integer age, String gender) {
-        this.id = id;
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
-    }
-
-    public Person(Integer id,Integer age, String name,  String gender) {
-        this.id = id;
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
-    }
-
     @Override
     public String toString() {
         return "Person{" +
@@ -129,5 +112,39 @@ public class Person {
                 ", maps=" + maps +
                 ", properties=" + properties +
                 '}';
+    }
+
+    public Person() {
+        System.out.println("默认构造Person");
+    }
+
+    public Person(Integer id, String name, Integer age, String gender) {
+        System.out.println("构造Person");
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+
+    public Person(Integer id,Integer age, String name,  String gender) {
+        System.out.println("构造Person");
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+
+    public Person(Address address) {
+        System.out.println("构造Person");
+        this.address=address;
+    }
+
+    public  void init(){
+        //编写N行逻辑代码完成初始化功能
+        System.out.println("person对象初始化完成");
+    }
+
+    public  void destroy(){
+        System.out.println("person对象被销毁");
     }
 }

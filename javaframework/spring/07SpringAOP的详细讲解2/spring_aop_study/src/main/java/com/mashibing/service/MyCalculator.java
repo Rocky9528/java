@@ -1,14 +1,18 @@
 package com.mashibing.service;
 
+import com.mashibing.util.LogUtil;
 import org.springframework.stereotype.Service;
 
-//@Service
-public class MyCalculator /*implements Calculator */{
+import java.lang.reflect.Method;
+
+@Service
+public class MyCalculator implements Calculator {
     public Integer add(Integer i, Integer j) throws NoSuchMethodException {
 //        Method add = MyCalculator.class.getMethod("add", Integer.class, Integer.class);
-//        LogUtil.start(add,i,j);
+//        int[] t=new int[]{i,j};
+//        LogUtil.start1(add,new Object[]{i,j});
         Integer result = i+j;
-//        LogUtil.stop(add,result);
+//        LogUtil.stop1(add,new Object[]{i,j});
         return result;
     }
 
@@ -31,13 +35,16 @@ public class MyCalculator /*implements Calculator */{
     public Integer div(Integer i, Integer j) throws NoSuchMethodException {
 //        Method div = MyCalculator.class.getMethod("div", Integer.class, Integer.class);
 //        LogUtil.start(div,i,j);
+        System.out.println("div1");
         Integer result = i/j;
+        System.out.println("div2");
 //        LogUtil.stop(div,result);
         return result;
+
     }
 
-    public Integer show(Integer i){
+    public String show(Integer i){
         System.out.println("show .....");
-        return i;
+        return i.toString();
     }
 }

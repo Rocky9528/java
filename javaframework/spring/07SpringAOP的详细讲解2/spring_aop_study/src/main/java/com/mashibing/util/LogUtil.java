@@ -1,5 +1,6 @@
 package com.mashibing.util;
 
+import net.sf.cglib.proxy.MethodProxy;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
@@ -97,14 +98,33 @@ public class LogUtil {
      *          如果需要认为的规定顺序，可以在切面类上添加@Order注解同时可以添加具体的值
      *          值越小，越优先
      */
+    public static int start1(Method method,Object[] args){
 
-    @Pointcut("execution(public Integer com.mashibing.service.MyCalculator.*(Integer,Integer))")
+        System.out.println("log---"+method.getName()+"方法开始执行：参数是"+Arrays.asList(args));
+        return 100;
+    }
+
+    public static void stop1(Method method,Object[] args){
+
+        System.out.println("log---"+method.getName()+"方法执行结束，结果是："+Arrays.asList(args));
+    }
+
+    public static void logException1(Method method,Exception e){
+        System.out.println("log---"+method.getName()+"方法抛出异常："+e.getMessage());
+    }
+
+    public static void logFinally1(Method method,Object[] args){
+
+        System.out.println("log---"+method.getName()+"方法执行结束。。。。。over finally");
+
+    }
+//    @Pointcut("execution(public Integer com.mashibing.service.MyCalculator.*(*,*))")
     public void myPointCut(){}
 
-    @Pointcut("execution(* *(..))")
-    public void myPointCut1(){}
+//    @Pointcut("execution(* *(..))")
+//    public void myPointCut1(){}
 
-    @Before(value = "myPointCut()")
+//    @Before(value = "myPointCut()")
     private int start(JoinPoint joinPoint){
         //获取方法签名
         Signature signature = joinPoint.getSignature();
@@ -114,26 +134,27 @@ public class LogUtil {
         return 100;
     }
 
-    @AfterReturning(value = "myPointCut()",returning = "result")
+//    @AfterReturning(value = "myPointCut()",returning = "result")
     public static void stop(JoinPoint joinPoint,Object result){
         Signature signature = joinPoint.getSignature();
         System.out.println("log---"+signature.getName()+"方法执行结束，结果是："+result);
     }
 
-    @AfterThrowing(value = "myPointCut()",throwing = "e")
+//    @AfterThrowing(value = "myPointCut()",throwing = "e")
     public static void logException(JoinPoint joinPoint,Exception e){
         Signature signature = joinPoint.getSignature();
         System.out.println("log---"+signature.getName()+"方法抛出异常："+e.getMessage());
     }
 
-    @After("myPointCut()")
+//    @After("myPointCut()")
     public static void logFinally(JoinPoint joinPoint){
         Signature signature = joinPoint.getSignature();
         System.out.println("log---"+signature.getName()+"方法执行结束。。。。。over");
 
     }
 
-     @Around("myPointCut()")
+
+//     @Around("myPointCut()")
     public Object around(ProceedingJoinPoint pjp) throws Throwable {
         Signature signature = pjp.getSignature();
         Object[] args = pjp.getArgs();

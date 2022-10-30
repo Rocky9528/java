@@ -44,7 +44,7 @@
         -->
 <!--        <context:exclude-filter type="assignable" expression="com.mashibing.controller.PersonController"/>-->
 <!--        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>-->
-        <context:include-filter type="assignable" expression="com.mashibing.service.PersonService"/>
+<!--        <context:include-filter type="assignable" expression="com.mashibing.service.PersonService"/>-->
     </context:component-scan>
 
 <!--    <bean id="personController" class="com.mashibing.controller.PersonController" autowire=""></bean>-->

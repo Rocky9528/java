@@ -14,12 +14,12 @@ import java.util.Arrays;
 //@Order(100)
 public class SecurityUtil {
 
-    @Pointcut("execution(public Integer com.mashibing.service.MyCalculator.*(Integer,Integer))")
+//    @Pointcut("execution(public Integer com.mashibing.service.MyCalculator.*(Integer,Integer))")
     public void myPointCut(){}
 
 
 
-    @Before(value = "myPointCut()")
+//    @Before(value = "myPointCut()")
     private int start(JoinPoint joinPoint){
         Signature signature = joinPoint.getSignature();
         Object[] args = joinPoint.getArgs();
@@ -27,26 +27,26 @@ public class SecurityUtil {
         return 100;
     }
 
-    @AfterReturning(value = "myPointCut()",returning = "result")
+//    @AfterReturning(value = "myPointCut()",returning = "result")
     public static void stop(JoinPoint joinPoint,Object result){
         Signature signature = joinPoint.getSignature();
         System.out.println("Security---"+signature.getName()+"方法执行结束，结果是："+result);
     }
 
-    @AfterThrowing(value = "myPointCut()",throwing = "e")
+//    @AfterThrowing(value = "myPointCut()",throwing = "e")
     public static void logException(JoinPoint joinPoint,Exception e){
         Signature signature = joinPoint.getSignature();
         System.out.println("Security---"+signature.getName()+"方法抛出异常："+e.getMessage());
     }
 
-    @After("myPointCut()")
+//    @After("myPointCut()")
     public static void logFinally(JoinPoint joinPoint){
         Signature signature = joinPoint.getSignature();
         System.out.println("Security---"+signature.getName()+"方法执行结束。。。。。over");
 
     }
 
-    @Around("myPointCut()")
+//    @Around("myPointCut()")
     public Object around(ProceedingJoinPoint pjp) throws Throwable {
         Signature signature = pjp.getSignature();
         Object[] args = pjp.getArgs();

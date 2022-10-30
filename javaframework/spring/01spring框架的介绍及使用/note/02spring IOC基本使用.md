@@ -983,7 +983,7 @@ ioc.xml
 ```xml
 <!--bean生命周期表示bean的创建到销毁
         如果bean是单例，容器在启动的时候会创建好，关闭的时候会销毁创建的bean
-        如果bean是多礼，获取的时候创建对象，销毁的时候不会有任何的调用
+        如果bean是多例，获取的时候创建对象，销毁的时候不会有任何的调用
     -->
     <bean id="address" class="com.mashibing.bean.Address" init-method="init" destroy-method="destory"></bean>
 ```

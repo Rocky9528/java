@@ -4,13 +4,17 @@
        xmlns:p="http://www.springframework.org/schema/p"
        xmlns:c="http://www.springframework.org/schema/c"
        xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
 
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/util
-       https://www.springframework.org/schema/util/spring-util.xsd">
+       https://www.springframework.org/schema/util/spring-util.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+">
 
-       <bean id="person1" class="com.rocky.bean.Person">
+    <bean id="person1" class="com.rocky.bean.Person" init-method="init" destroy-method="destroy" scope="singleton">
            <property name="id" value="1"></property>
            <property name="name" value="zhangsan1"></property>
            <property name="age" value="11"></property>
@@ -76,7 +80,7 @@
     <bean id="person5" class="com.rocky.bean.Person" p:id="3" p:name="xx" p:age="22" p:gender="男" p:address-ref="address"   p:hobbies-ref="hobbies"
     p:books-ref="myBooks" p:sets-ref="mySet" p:maps-ref="myMap1" p:properties-ref="properties1"
     >
-
+<!--        p:hobbies="hobbies11,hobbies22"-->
 <!--                &lt;!&ndash;级联属性&ndash;&gt;-->
 <!--        <property name="address" ref="address"></property>-->
 <!--        <property name="address.province" value="北京"></property>-->
@@ -91,19 +95,55 @@
     </bean>
 
     <!--parent:指定bean的配置信息继承于哪个bean-->
-    <bean id="person6" class="com.rocky.bean.Person" parent="person5" p:name="继承重命名"></bean>
+    <bean id="person6" class="com.rocky.bean.Person" parent="parent" p:name="继承重命名"></bean>
 
-    <!-- 如果想实现Java文件的抽象类，不需要将当前bean实例化的话，可以使用abstract属性 -->
-    <bean id="person7" class="com.rocky.bean.Person" abstract="true">
-        <property name="id" value="1"></property>
-        <property name="name" value="zhangsan"></property>
-        <property name="age" value="21"></property>
-        <property name="gender" value="男"></property>
-    </bean>
     <!--parent:指定bean的配置信息继承于哪个bean-->
-    <bean id="person8" class="com.rocky.bean.Person" parent="person7">
+    <bean id="person7" class="com.rocky.bean.Person" parent="parent">
         <property name="name" value="lisi"></property>
     </bean>
+
+    <bean id="person8" class="com.rocky.bean.Person" scope="prototype" p:name="prototype"></bean>
+
+    <bean id="person9" class="com.rocky.factory.PersonStaticFactory" factory-method="getPerson" c:id="9" c:name="zhang9" c:age="9">
+<!--        <constructor-arg name="id" value="9"></constructor-arg>-->
+<!--        <constructor-arg name="name" value="zhangsan"></constructor-arg>-->
+<!--        <constructor-arg name="age" value="9"></constructor-arg>-->
+    </bean>
+
+    <bean id="person10" class="com.rocky.factory.PersonInstanceFactory" factory-bean="personInstanceFactory" factory-method="getPerson" c:id="10" c:name="zhang10" c:age="10"></bean>
+
+    <bean id="dataSource1" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="username" value="root"></property>
+        <property name="password" value="123456"></property>
+        <property name="url" value="jdbc:mysql://localhost:3306/test"></property>
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+    </bean>
+
+<!--    当需要引入外部的配置文件的时候，需要导入一些context的命名空间-->
+        <context:property-placeholder location="classpath:db.properties"></context:property-placeholder>
+<!--    <context:component-scan base-package="com.*"></context:component-scan>-->
+ 
+<!--    在配置文件编写属性的时候需要注意，-->
+<!--    spring容器在进行启动的时候，会读取当前系统的某些环境变量的配置，-->
+<!--    当前系统的用户名是用username来表示的，所以最好的方式是添加前缀来做区分-->
+<!--    -->
+    <bean id="dataSource2" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="username" value="${jdbc.username}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+        <property name="url" value="${url}"></property>
+        <property name="driverClassName" value="${driverClassName}"></property>
+    </bean>
+
+<!--    byName byType constructor-->
+    <bean id="person11" class="com.rocky.bean.Person" autowire="byName"></bean>
+
+    <bean id="person12" class="com.rocky.bean.Person" init-method="init" destroy-method="destroy" scope="singleton">
+        <property name="id" value="#{9*9}"></property>
+        <property name="name" value="zhangsan1"></property>
+        <property name="age" value="#{99*99}"></property>
+    </bean>
+
+<!--    <bean id="mybeanpostprocessor" class="com.rocky.bean.MyBeanPostProcessor"></bean>-->
 
     <bean id="address" class="com.rocky.bean.Address">
         <property name="city" value="珠海"></property>
@@ -111,11 +151,17 @@
         <property name="town" ><null></null></property>
     </bean>
 
+    <bean id="address1" class="com.rocky.bean.Address">
+        <property name="city" value="珠海1"></property>
+        <property name="province" value="广东省1"></property>
+        <property name="town" ><null></null></property>
+    </bean>
+
     <!-- hobbies使用set也行 array、set、list结构都一样 会自动转换-->
-   <util:list id="hobbies">
-           <value>hobbies3</value>
-           <value>hobbies4</value>
-   </util:list>
+    <util:list id="hobbies">
+        <value>hobbies3,</value>
+        <value>hobbies4</value>
+    </util:list>
 
     <!-- 使用set也行   -->
     <util:list id="myBooks">
@@ -172,9 +218,21 @@
 
     <util:constant id="constant1" static-field="com.rocky.bean.Person.constantName"></util:constant>
 
+    <!-- 如果想实现Java文件的抽象类，不需要将当前bean实例化的话，可以使用abstract属性 -->
+    <bean id="parent" class="com.rocky.bean.Person" abstract="true">
+        <property name="id" value="1"></property>
+        <property name="name" value="zhangsan"></property>
+        <property name="age" value="21"></property>
+        <property name="gender" value="男"></property>
+    </bean>
+
     <util:property-path id="propertypath" path="person5.books"></util:property-path>
 
+    <bean id="personInstanceFactory" class="com.rocky.factory.PersonInstanceFactory"></bean>
 
+<!--    <bean id="person12_1" -->
+
+    <bean id="myfactorybean" class="com.rocky.factory.MyFactoryBean"></bean>
 
 
 </beans>

@@ -7,6 +7,8 @@ import java.io.FileNotFoundException;
 public class MyTest2 {
     ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
+//    ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("tx.xml");
+
     @Test
     public void test01() throws FileNotFoundException {
         BookService bean = context.getBean(BookService.class);

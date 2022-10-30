@@ -10,10 +10,10 @@
     <bean id="logUtil" class="com.mashibing.util.LogUtil"></bean>
     <bean id="securityUtil" class="com.mashibing.util.SecurityUtil"></bean>
     <bean id="myCalculator" class="com.mashibing.service.MyCalculator"></bean>
-    <!--配置aop-->
-    <aop:config>
+<!--    配置aop-->
+    <aop:config proxy-target-class="true">
         <aop:pointcut id="globalPoint" expression="execution( Integer com.mashibing.service.MyCalculator.*(..))"/>
-        <!--声明切面-->
+<!--        声明切面-->
         <aop:aspect ref="logUtil">
             <!--将通用的表达式给抽取出来-->
             <aop:pointcut id="myPoint" expression="execution( Integer com.mashibing.service.MyCalculator.*(..))"/>
@@ -25,11 +25,12 @@
             <aop:around method="around" pointcut-ref="myPoint"></aop:around>
         </aop:aspect>
         <aop:aspect ref="securityUtil">
+            <aop:around method="around" pointcut-ref="globalPoint"></aop:around>
             <aop:before method="start" pointcut-ref="globalPoint"></aop:before>
             <aop:after method="logFinally" pointcut-ref="globalPoint"></aop:after>
             <aop:after-returning method="stop" pointcut-ref="globalPoint" returning="result"></aop:after-returning>
             <aop:after-throwing method="logException" pointcut-ref="globalPoint" throwing="e"></aop:after-throwing>
-            <aop:around method="around" pointcut-ref="globalPoint"></aop:around>
+
         </aop:aspect>
     </aop:config>
 </beans>

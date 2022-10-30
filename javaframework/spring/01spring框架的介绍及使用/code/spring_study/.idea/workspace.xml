@@ -6,18 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3870e37d-8f43-4cb9-8217-824f86447d4b" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/../spring_study_maven/src/main/java/com/rocky/bean/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_study_maven/src/main/java/com/rocky/bean/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_study_maven/src/main/resources/pro.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_study_maven/src/main/java/com/rocky/bean/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_study_maven/src/main/java/com/rocky/bean/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_study_maven/src/main/java/com/rocky/test/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_study_maven/src/main/java/com/rocky/test/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_study_maven/src/main/resources/ioc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_study_maven/src/main/resources/ioc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_study_maven/target/classes/com/rocky/bean/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_study_maven/target/classes/com/rocky/bean/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_study_maven/target/classes/com/rocky/test/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_study_maven/target/classes/com/rocky/test/MyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_study_maven/target/classes/ioc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_study_maven/target/classes/ioc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3870e37d-8f43-4cb9-8217-824f86447d4b" name="Default Changelist" comment="Default Changelist" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,6 +197,7 @@
       <workItem from="1666193540090" duration="924000" />
       <workItem from="1666272271253" duration="598000" />
       <workItem from="1666422636644" duration="2081000" />
+      <workItem from="1666493633552" duration="40000" />
     </task>
     <servers />
   </component>

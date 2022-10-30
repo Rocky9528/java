@@ -13,5 +13,5 @@
     <!--开启包的扫描-->
     <context:component-scan base-package="com.mashibing"></context:component-scan>
     <!--开启aop的注解功能-->
-    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+    <aop:aspectj-autoproxy proxy-target-class="true" ></aop:aspectj-autoproxy>
 </beans>

@@ -5,10 +5,17 @@ import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSource;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+import org.springframework.jdbc.core.namedparam.SqlParameterSource;
+import org.springframework.jdbc.support.GeneratedKeyHolder;
+import org.springframework.jdbc.support.KeyHolder;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class MyTest {
 
@@ -64,6 +71,7 @@ public class MyTest {
         JdbcTemplate jdbcTemplate = context.getBean("jdbcTemplate", JdbcTemplate.class);
         String sql = "select * from emp where empno=?";
         Emp result = jdbcTemplate.queryForObject(sql,new BeanPropertyRowMapper<>(Emp.class),7369);
+
         System.out.println(result);
     }
 
@@ -82,4 +90,55 @@ public class MyTest {
         EmpDao empDao = context.getBean("empDao", EmpDao.class);
         empDao.save(new Emp(1111,"zhangsan"));
     }
+
+     //NamedParameterJdbcTemplate
+    @Test
+    public  void test09_1(){
+
+        NamedParameterJdbcTemplate jdbcTemplate = context.getBean("namedParameterJDBCTemplate", NamedParameterJdbcTemplate.class);
+        String sql = "insert into emp(empno,ename) values(:empno,:ename)";
+        Map<String,Object> map = new HashMap<>();
+        map.put("empno",2222);
+        map.put("ename","sili");
+        int update = jdbcTemplate.update(sql, map);
+        System.out.println(update);
+
+    }
+    @Test
+    public  void test09_2(){
+
+        NamedParameterJdbcTemplate jdbcTemplate = context.getBean("namedParameterJDBCTemplate", NamedParameterJdbcTemplate.class);
+        String sql = "insert into emp(empno,ename) values(:empno,:ename)";
+        Emp emp=new Emp();
+        emp.setEmpno(3333);
+        emp.setEname("wangwu");
+        SqlParameterSource sqlParameterSource=new BeanPropertySqlParameterSource(emp);
+        int update = jdbcTemplate.update(sql, sqlParameterSource);
+        System.out.println(update);
+
+    }
+
+    @Test
+    public  void test09_3(){
+
+        NamedParameterJdbcTemplate jdbcTemplate = context.getBean("namedParameterJDBCTemplate", NamedParameterJdbcTemplate.class);
+        String sql = "insert into emp(empno,ename) values(:empno,:ename)";
+        Emp emp=new Emp();
+        emp.setEmpno(4444);
+        emp.setEname("zhaoliu");
+        SqlParameterSource sqlParameterSource=new BeanPropertySqlParameterSource(emp);
+
+        KeyHolder keyHolder=new GeneratedKeyHolder();
+
+        int update = jdbcTemplate.update(sql, sqlParameterSource,keyHolder,new String[]{"empno"});
+
+        int k = keyHolder.getKey().intValue();
+        System.out.println(k);
+
+        System.out.println(update);
+
+    }
+
+
+
 }

@@ -610,7 +610,7 @@ public class MyTest {
 ​		Spring的核心事务管理抽象是PlatformTransactionManager。它为事务管理封装了一组独立于技术的方法。无论使用Spring的哪种事务管理策略(编程式或声明式)，事务管理器都是必须的。
 
 ​		事务管理器可以以普通的bean的形式声明在Spring IOC容器中。下图是spring提供的事务管理器
-![事务管理器](image\事务管理器.png)
+![事务管理器](..\image\事务管理器.png)
 
 1、在配置文件中添加事务管理器
 
@@ -911,7 +911,7 @@ public class BookService {
 
 spring的事务传播行为一共有7种：
 
-![传播特性](E:\lian\spring\image\传播特性.jpg)
+![传播特性](..\\image\传播特性.jpg)
 
 ##### 10、测试事务的传播特性
 

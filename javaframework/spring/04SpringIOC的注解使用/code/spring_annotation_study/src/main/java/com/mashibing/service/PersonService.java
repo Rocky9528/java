@@ -11,7 +11,8 @@ public class PersonService {
     private PersonDao personDao;
 
     public void save(){
-        System.out.println("personservice");
+        System.out.println("执行PersonService 的 save ");
         personDao.save();
+
     }
 }

@@ -10,10 +10,10 @@ public class MyTest3 {
     @Test
     public void test01() {
     ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-//        MultService bean = context.getBean(MultService.class);
-//        bean.mult();
-//        bean.buyBook();
-        BookService bean = context.getBean(BookService.class);
+        MultService bean = context.getBean(MultService.class);
         bean.mult();
+//        bean.buyBook();
+//        BookService bean = context.getBean(BookService.class);
+//        bean.mult();
     }
 }
