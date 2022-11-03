@@ -4,8 +4,10 @@ import com.mashibing.bean.User;
 import com.mashibing.dao.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -24,6 +26,7 @@ import javax.servlet.http.HttpServletResponse;
  *  DELETE: 删除      /user/1
  *
  */
+@RequestMapping("/user")
 @Controller
 public class UserController {
 
@@ -38,9 +41,15 @@ public class UserController {
     }
 
     @RequestMapping(value = "/user",method = RequestMethod.PUT)
-    public String update(Integer id){
+    public String update( Integer id){
         System.out.println(this.getClass().getName()+"update");
         userDao.update(id);
+        return "redirect:success";
+    }
+
+    @RequestMapping(value = "/success")
+    public String update1(){
+
         return "success";
     }
 

@@ -6,7 +6,7 @@
 
 主要包含的模块：
 
-![](image\spring-overview.png)
+![](..\image\spring-overview.png)
 
 ### 2、Spring框架的优势
 
@@ -60,7 +60,7 @@
 
 ### 6、BeanFactory和ApplicationContext的异同
 
-![](image\ApplicationContext类图.png)
+![](..\image\ApplicationContext类图.png)
 
 相同：
 
@@ -79,7 +79,7 @@
 
 ### 7、Spring Bean 的生命周期？
 
-![](image\bean生命周期.png)
+![](..\image\bean生命周期.png)
 
 总结：
 
@@ -167,7 +167,7 @@
 
 ### 10、Spring 的不同事务传播行为有哪些，干什么用的？
 
-![](image\传播特性.jpg)
+![](..\image\传播特性.jpg)
 
 ### 11、Spring 中用到了那些设计模式？
 

@@ -5,11 +5,65 @@
       <artifact name="springmvc_helloworld:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed57aaf1-9302-48b6-bf9d-7717dd78ca35" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="ed57aaf1-9302-48b6-bf9d-7717dd78ca35" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/my_servlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/.idea/springmvc_helloworld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/out/artifacts/springmvc_helloworld_war_exploded/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/out/artifacts/springmvc_helloworld_war_exploded/WEB-INF/classes/com/mashibing/controller/PathVariableController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld_xml/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld_xml/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spring/07SpringAOP的详细讲解2/spring_aop_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spring/07SpringAOP的详细讲解2/spring_aop_study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spring/08Spring源码讲解/06Spring原理讲解.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spring/08Spring源码讲解/06Spring原理讲解.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spring/09动态代理源码分析/spring_aop_tx/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spring/09动态代理源码分析/spring_aop_tx/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spring/09动态代理源码分析/spring_aop_tx/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spring/09动态代理源码分析/spring_aop_tx/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spring/09动态代理源码分析/spring_aop_tx/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spring/09动态代理源码分析/spring_aop_tx/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spring/09动态代理源码分析/spring_aop_tx/target/classes/com/mashibing/service/MultService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spring/09动态代理源码分析/spring_aop_tx/target/classes/com/mashibing/service/MultService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/my_servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/my_servlet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/my_servlet/my_servlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/my_servlet/my_servlet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/.idea/artifacts/springmvc_helloworld_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/.idea/artifacts/springmvc_helloworld_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/out/artifacts/springmvc_helloworld_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/out/artifacts/springmvc_helloworld_war_exploded/WEB-INF/classes/com/mashibing/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/out/artifacts/springmvc_helloworld_war_exploded/WEB-INF/classes/com/mashibing/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/out/artifacts/springmvc_helloworld_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/out/artifacts/springmvc_helloworld_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/target/classes/com/mashibing/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld_xml/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld_xml/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld_xml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld_xml/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld_xml/target/classes/com/mashibing/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld_xml/target/classes/com/mashibing/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/springmvc_helloworld_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_helloworld_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springmvc_helloworld_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_helloworld_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springmvc_helloworld_war_exploded/WEB-INF/classes/com/mashibing/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_helloworld_war_exploded/WEB-INF/classes/com/mashibing/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springmvc_helloworld_war_exploded/WEB-INF/classes/com/mashibing/controller/PathVariableController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_helloworld_war_exploded/WEB-INF/classes/com/mashibing/controller/PathVariableController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/controller/PathVariableController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/controller/PathVariableController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_rest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_rest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_rest/out/artifacts/springmvc_rest_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_rest/out/artifacts/springmvc_rest_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/MyFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/MyFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/bean/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/bean/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/bean/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/controller/RequestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/controller/RequestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/controller/UserController2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/controller/UserController2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_rest/target/classes/com/mashibing/MyFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_rest/target/classes/com/mashibing/MyFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_rest/target/classes/com/mashibing/bean/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_rest/target/classes/com/mashibing/bean/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_rest/target/classes/com/mashibing/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_rest/target/classes/com/mashibing/bean/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_rest/target/classes/com/mashibing/controller/RequestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_rest/target/classes/com/mashibing/controller/RequestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_rest/target/classes/com/mashibing/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_rest/target/classes/com/mashibing/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_rest/target/classes/com/mashibing/controller/UserController2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_rest/target/classes/com/mashibing/controller/UserController2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_rest/target/classes/com/mashibing/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_rest/target/classes/com/mashibing/dao/UserDao.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,43 +76,6 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/controller/HelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/controller/PathVariableController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="27" column="17" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="27" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -68,6 +85,17 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -94,17 +122,15 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="C:/apache-maven-3.5.4" />
         <option name="userSettingsFile" value="C:\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -123,6 +149,10 @@
     <option name="y" value="20" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
+  </component>
+  <component name="ProjectId" id="2GuA2K5TDMHHdskEpyFFcW84UQ0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -214,35 +244,28 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/apache-tomcat-9.0.31/lib/servlet-api.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="工件" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\springmvc_helloworld\src\main\resources" />
       <recent name="D:\IdeaProjects\springmvc_helloworld\web\WEB-INF" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
@@ -349,6 +372,21 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -372,6 +410,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
@@ -386,6 +425,10 @@
       <option name="presentableId" value="Default" />
       <updated>1584171856630</updated>
       <workItem from="1584171859389" duration="12657000" />
+      <workItem from="1667227888740" duration="5742000" />
+      <workItem from="1667312439838" duration="316000" />
+      <workItem from="1667363883140" duration="1202000" />
+      <workItem from="1667365209961" duration="339000" />
     </task>
     <servers />
   </component>
@@ -477,7 +520,21 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -485,25 +542,21 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.3.RELEASE/spring-webmvc-5.2.3.RELEASE-sources.jar!/org/springframework/web/servlet/HttpServletBean.java</url>
           <line>151</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.3.RELEASE/spring-webmvc-5.2.3.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java</url>
           <line>529</line>
-          <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.3.RELEASE/spring-webmvc-5.2.3.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java</url>
           <line>897</line>
-          <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.3.RELEASE/spring-webmvc-5.2.3.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java</url>
           <line>908</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

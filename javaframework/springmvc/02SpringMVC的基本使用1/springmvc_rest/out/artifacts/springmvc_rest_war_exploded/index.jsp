@@ -14,17 +14,21 @@
     <title>$Title$</title>
   </head>
   <body>
-  <form action="${ctp}/user" method="post">
+  <form action="${ctp}/user/user" method="post">
     <input type="submit" value="新增">
   </form>
-  <form action="${ctp}/user" method="post">
+  <form action="${ctp}/user/user" method="post">
     <input type="hidden" name="_method" value="put">
+<%--    <input type="text" name="name">--%>
+<%--    <input type="text" name="id">--%>
     <input type="submit" value="更新">
   </form>
-  <form action="${ctp}/user" method="post">
+  <form action="${ctp}/user/user" method="post">
     <input type="hidden" name="_method" value="delete">
     <input type="submit" value="删除">
   </form>
-  <a href="${ctp}/user">查询</a>
+
+
+  <a href="${ctp}/user/user">查询</a>
   </body>
 </html>

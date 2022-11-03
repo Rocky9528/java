@@ -22,26 +22,16 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://C:/apache-tomcat-9.0.31/lib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://C:/apache-tomcat-9.0.31/lib" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://C:/apache-tomcat-9.0.31/lib/jsp-api.jar!/" />
+          <root url="jar://C:/Program Files/apache-tomcat/apache-tomcat-9.0.31/lib/jsp-api.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://C:/apache-tomcat-9.0.31/lib/servlet-api.jar!/" />
+          <root url="jar://C:/Program Files/apache-tomcat/apache-tomcat-9.0.31/lib/servlet-api.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
