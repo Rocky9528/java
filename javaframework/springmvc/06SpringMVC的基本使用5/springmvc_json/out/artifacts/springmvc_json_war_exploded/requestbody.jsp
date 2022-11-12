@@ -23,6 +23,9 @@
 </form>
 <hr/>
 <a href="${ctp}/testRequestJson">发送接送数据</a>
+
+<a id="a" href="${ctp}/testRequestBody">发送接送数据2</a>
+
 </body>
 <script type="text/javascript">
     $("a:first").click(function(){
@@ -39,5 +42,22 @@
         });
         return false;
     })
+
+    $(document.getElementById("a")).click(function(){
+        var user = {id:"1",name:"zhangsan",age:"12",gender:"man"};
+        var jsonuser = JSON.stringify(user);
+        $.ajax({
+            url:"${ctp}/testRequestBody",
+            type:"post",
+            data:jsonuser,
+            contentType:"application/json",
+            success:function (data) {
+                alert(data)
+            }
+        });
+        return false;
+    })
+
+
 </script>
 </html>

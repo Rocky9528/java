@@ -1,5 +1,6 @@
 package com.mashibing.controller;
 
+import com.mashibing.bean.Person;
 import com.mashibing.bean.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,10 +16,25 @@ import javax.servlet.http.HttpServletRequest;
 @Controller
 public class MyConverterController {
 
-    @RequestMapping("/converter")
-    public String testConverter( User user, Model model){
+    @RequestMapping("/convertertest")
+    public String testConverter(String user, Model model){
         System.out.println(user);
         model.addAttribute("user",user);
         return "success";
     }
+
+    @RequestMapping("/converter")
+    public String testConverter(@RequestParam("user") User user1, Model model){
+        System.out.println(user1);
+        model.addAttribute("user",user1);
+        return "success";
+    }
+
+    @RequestMapping("/converter2")
+    public String testConverter(@RequestParam("person") Person person1, Model model){
+        System.out.println(person1);
+        model.addAttribute("person",person1);
+        return "success";
+    }
+
 }

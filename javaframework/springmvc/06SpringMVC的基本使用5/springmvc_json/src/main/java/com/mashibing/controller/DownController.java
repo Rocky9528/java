@@ -17,6 +17,7 @@ public class DownController {
     @RequestMapping("/download")
     public ResponseEntity<byte[]> download(HttpServletRequest request) throws Exception {
 
+
         //获取要下载的路径
         ServletContext servletContext = request.getServletContext();
         String realPath = servletContext.getRealPath("/scripts/jquery-1.9.1.min.js");

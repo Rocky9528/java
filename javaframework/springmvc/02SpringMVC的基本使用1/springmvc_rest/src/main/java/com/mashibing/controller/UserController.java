@@ -2,15 +2,15 @@ package com.mashibing.controller;
 
 import com.mashibing.bean.User;
 import com.mashibing.dao.UserDao;
+import org.apache.catalina.connector.Request;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
+import javax.naming.Name;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.Map;
 
 /**
  *
@@ -41,17 +41,19 @@ public class UserController {
     }
 
     @RequestMapping(value = "/user",method = RequestMethod.PUT)
-    public String update( Integer id){
+    public String update( Integer id ,String name){
         System.out.println(this.getClass().getName()+"update");
+        System.out.println(name);
         userDao.update(id);
-        return "redirect:success";
-    }
-
-    @RequestMapping(value = "/success")
-    public String update1(){
-
         return "success";
+//        return "redirect:success";
     }
+
+//    @RequestMapping(value = "/success")
+//    public String update1(){
+//
+//        return "success";
+//    }
 
     @RequestMapping(value = "/user" ,method = RequestMethod.DELETE)
     public String delete(Integer id){
@@ -61,8 +63,10 @@ public class UserController {
     }
 
     @RequestMapping(value = "/user",method = RequestMethod.GET)
-    public String query(){
+    public String query(Integer id,String name){
         System.out.println(this.getClass().getName()+"query");
+        System.out.println(id);
+        System.out.println(name);
         userDao.query();
         return "success";
     }

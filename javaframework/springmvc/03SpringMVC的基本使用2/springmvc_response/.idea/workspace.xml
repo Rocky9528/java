@@ -5,11 +5,35 @@
       <artifact name="springmvc_response:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6835347-fc26-4927-983e-9e22af06b276" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="a6835347-fc26-4927-983e-9e22af06b276" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01SpringMVC的介绍及使用/springmvc_helloworld/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/MyView$HttpMethodRequestWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/MyView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/controller/RequestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/controller/RequestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/com/mashibing/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/page/err.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/out/artifacts/springmvc_rest_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/out/artifacts/springmvc_rest_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/out/artifacts/springmvc_rest_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/out/artifacts/springmvc_rest_war_exploded/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/out/artifacts/springmvc_rest_war_exploded/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/src/main/java/com/mashibing/controller/RequestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/src/main/java/com/mashibing/controller/RequestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/src/main/java/com/mashibing/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/src/main/java/com/mashibing/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/target/classes/com/mashibing/MyView$HttpMethodRequestWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/target/classes/com/mashibing/MyView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/target/classes/com/mashibing/controller/RequestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/target/classes/com/mashibing/controller/RequestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/target/classes/com/mashibing/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/target/classes/com/mashibing/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/web/WEB-INF/page/err.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/web/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../02SpringMVC的基本使用1/springmvc_rest/web/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,186 +42,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/controller/StaticController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.3.RELEASE/spring-webmvc-5.2.3.RELEASE-sources.jar!/org/springframework/web/servlet/view/InternalResourceViewResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="79" column="14" lean-forward="true" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.3.RELEASE/spring-webmvc-5.2.3.RELEASE-sources.jar!/org/springframework/web/servlet/view/UrlBasedViewResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="111" column="30" lean-forward="true" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="30" />
-              <folding>
-                <element signature="e#6419#6420#0" expanded="true" />
-                <element signature="e#6470#6471#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.3.RELEASE/spring-webmvc-5.2.3.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="750" column="87" selection-start-line="750" selection-start-column="75" selection-end-line="750" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.3.RELEASE/spring-webmvc-5.2.3.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="24" column="96" lean-forward="true" selection-start-line="24" selection-start-column="96" selection-end-line="24" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/org.springframework.web.servlet.view.InternalResourceViewResolver">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>org.springframework.web.servlet.view.InternalResourceViewResolver</OriginalElement>
-              <nodes>
-                <node x="291.0" y="88.0">org.springframework.web.context.ServletContextAware</node>
-                <node x="112.5" y="352.0">org.springframework.core.Ordered</node>
-                <node x="444.0" y="264.0">org.springframework.web.servlet.ViewResolver</node>
-                <node x="119.0" y="264.0">org.springframework.web.context.support.WebApplicationObjectSupport</node>
-                <node x="164.5" y="440.0">org.springframework.web.servlet.view.UrlBasedViewResolver</node>
-                <node x="126.5" y="528.0">org.springframework.web.servlet.view.InternalResourceViewResolver</node>
-                <node x="224.5" y="0.0">org.springframework.beans.factory.Aware</node>
-                <node x="245.5" y="352.0">org.springframework.web.servlet.view.AbstractCachingViewResolver</node>
-                <node x="0.0" y="176.0">org.springframework.context.support.ApplicationObjectSupport</node>
-                <node x="5.0" y="88.0">org.springframework.context.ApplicationContextAware</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="org.springframework.web.servlet.view.AbstractCachingViewResolver" target="org.springframework.web.servlet.ViewResolver">
-                  <point x="76.25" y="-19.0" />
-                  <point x="474.25" y="327.0" />
-                  <point x="524.5" y="327.0" />
-                  <point x="0.0" y="19.0" />
-                </edge>
-                <edge source="org.springframework.web.servlet.view.AbstractCachingViewResolver" target="org.springframework.web.context.support.WebApplicationObjectSupport">
-                  <point x="-76.25" y="-19.0" />
-                  <point x="321.75" y="327.0" />
-                  <point x="271.5" y="327.0" />
-                  <point x="0.0" y="19.0" />
-                </edge>
-                <edge source="org.springframework.context.ApplicationContextAware" target="org.springframework.beans.factory.Aware">
-                  <point x="0.0" y="-19.0" />
-                  <point x="138.0" y="63.0" />
-                  <point x="248.0" y="63.0" />
-                  <point x="-23.5" y="19.0" />
-                </edge>
-                <edge source="org.springframework.web.context.support.WebApplicationObjectSupport" target="org.springframework.context.support.ApplicationObjectSupport">
-                  <point x="-76.25" y="-19.0" />
-                  <point x="195.25" y="239.0" />
-                  <point x="138.0" y="239.0" />
-                  <point x="0.0" y="19.0" />
-                </edge>
-                <edge source="org.springframework.web.servlet.view.InternalResourceViewResolver" target="org.springframework.web.servlet.view.UrlBasedViewResolver">
-                  <point x="0.0" y="-19.0" />
-                  <point x="0.0" y="19.0" />
-                </edge>
-                <edge source="org.springframework.web.context.ServletContextAware" target="org.springframework.beans.factory.Aware">
-                  <point x="0.0" y="-19.0" />
-                  <point x="405.0" y="63.0" />
-                  <point x="295.0" y="63.0" />
-                  <point x="23.5" y="19.0" />
-                </edge>
-                <edge source="org.springframework.context.support.ApplicationObjectSupport" target="org.springframework.context.ApplicationContextAware">
-                  <point x="0.0" y="-19.0" />
-                  <point x="0.0" y="19.0" />
-                </edge>
-                <edge source="org.springframework.web.servlet.view.UrlBasedViewResolver" target="org.springframework.web.servlet.view.AbstractCachingViewResolver">
-                  <point x="59.5" y="-19.0" />
-                  <point x="343.0" y="415.0" />
-                  <point x="398.0" y="415.0" />
-                  <point x="0.0" y="19.0" />
-                </edge>
-                <edge source="org.springframework.web.context.support.WebApplicationObjectSupport" target="org.springframework.web.context.ServletContextAware">
-                  <point x="76.25" y="-19.0" />
-                  <point x="347.75" y="239.0" />
-                  <point x="405.0" y="239.0" />
-                  <point x="0.0" y="19.0" />
-                </edge>
-                <edge source="org.springframework.web.servlet.view.UrlBasedViewResolver" target="org.springframework.core.Ordered">
-                  <point x="-59.5" y="-19.0" />
-                  <point x="224.0" y="415.0" />
-                  <point x="169.0" y="415.0" />
-                  <point x="0.0" y="19.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.8972696245733789" x="-111.52187143400533" y="247.47812856599467" />
-              <SelectedNodes>
-                <node>org.springframework.web.servlet.ViewResolver</node>
-              </SelectedNodes>
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.3.RELEASE/spring-context-5.2.3.RELEASE-sources.jar!/org/springframework/context/ApplicationContextAware.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -212,6 +56,9 @@
     <findStrings>
       <find>BindingAr</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -238,17 +85,15 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="C:/apache-maven-3.5.4" />
         <option name="userSettingsFile" value="C:\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -257,6 +102,8 @@
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectId" id="2H2eiN8g8WYHfheVdGayidyYzcI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -371,10 +218,13 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../04SpringMVC的基本使用3/springmvc_response" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -389,18 +239,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\springmvc_response\web" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
@@ -532,6 +370,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
@@ -546,6 +385,9 @@
       <option name="presentableId" value="Default" />
       <updated>1584255758684</updated>
       <workItem from="1584255761491" duration="7533000" />
+      <workItem from="1667487733586" duration="94000" />
+      <workItem from="1667489224396" duration="332000" />
+      <workItem from="1667615715208" duration="45000" />
     </task>
     <servers />
   </component>
@@ -634,7 +476,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">

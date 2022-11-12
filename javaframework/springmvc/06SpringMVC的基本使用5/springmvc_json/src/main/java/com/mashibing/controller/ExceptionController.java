@@ -28,8 +28,9 @@ public class ExceptionController {
      * @ResponseStatus虽然可以标注在方法上，但是不推荐使用
      * @return
      */
-    @ResponseStatus(reason = "我就是错了，不知道什么原因",value = HttpStatus.OK)
+
     @RequestMapping("/exception2")
+    @ResponseStatus(value = HttpStatus.OK) //reason = "我就是错了，不知道什么原因", //这里如果使用reason，则返回response是空
     public String exception2(){
         System.out.println("exception2");
         return "success";
@@ -59,13 +60,13 @@ public class ExceptionController {
 //        mv.addObject("exce",exception);
 //        return mv;
 //    }
-
+//
 //    @ExceptionHandler(value = {Exception.class})
 //    public ModelAndView handlerException2(Exception exception){
 //        System.out.println("exception2");
 //        ModelAndView mv = new ModelAndView();
 //        mv.setViewName("error");
-//        mv.addObject("exce",exception);
+//        mv.addObject("exce", "exception:"+exception+"<br>" +"message:"+ exception.getMessage()+"<br>" +"StackTrace:"+ exception.getStackTrace());
 //        return mv;
 //    }
 }

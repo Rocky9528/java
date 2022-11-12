@@ -14,6 +14,7 @@
     pageContext.setAttribute("ctp",request.getContextPath());
 %>
 <body>
+ctp:${ctp}
 <form action="${ctp}/testUser" method="post">
     编号：<input type="text" name="id"><br>
     姓名：<input type="text" name="name"><br>

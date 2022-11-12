@@ -15,7 +15,8 @@ public class ForWardController {
     @RequestMapping("/forward")
     public String forward(){
         System.out.println("forward");
-        return "forward:/index.jsp";
+//        return "forward:/index.jsp";
+        return "forward:/WEB-INF/page/success.jsp";
     }
 
     @RequestMapping("/forward2")

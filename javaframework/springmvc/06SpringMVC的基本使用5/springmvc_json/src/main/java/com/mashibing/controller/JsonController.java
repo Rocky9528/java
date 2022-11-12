@@ -35,6 +35,9 @@ public class JsonController {
     @RequestMapping("/testRequestBody")
     public String testRequestBody(@RequestBody String body){
         System.out.println(body);
+        User user = new User();
+        System.out.println(user);
+
         return "success";
     }
 

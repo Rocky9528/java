@@ -6,7 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="from" uri="http://www.springframework.org/tags/form" %>
+<%--<%@ taglib prefix="from" uri="http://www.springframework.org/tags/form" %>--%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <html>
 <head>
@@ -25,7 +25,9 @@
 <%--    邮箱：<input type="text" name="email">${errors.email}<br>--%>
 <%--    <input type="submit" value="login"><br>--%>
 <%--</form>--%>
-<form:form action="dataValidate"  modelAttribute="user" method="post">
+
+<jsp:useBean id="person" class="com.mashibing.bean.Person" scope="request"/>
+<form:form action="dataValidate" modelAttribute="person" method="post">
     id:<form:input path="id"></form:input><form:errors path="id"></form:errors> <br/>
     name:<form:input path="name"></form:input><form:errors path="name"></form:errors><br/>
     age:<form:input path="age"></form:input><form:errors path="age"></form:errors><br/>

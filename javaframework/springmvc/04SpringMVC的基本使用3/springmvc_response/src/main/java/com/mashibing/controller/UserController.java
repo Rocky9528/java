@@ -54,13 +54,13 @@ public class UserController {
 //        m1=model;
 //    }
 //
-//    @ModelAttribute
-//    public void testModelAttribute2(Model model){
-//        System.out.println("testModelAttribute2---------------+");
-//        User user = new User();
-//        user.setName("王五");
-//        model.addAttribute("user",user);
-//    }
+    @ModelAttribute
+    public void testModelAttribute2(Model model){
+        System.out.println("testModelAttribute2---------------+");
+        User user = new User();
+        user.setName("王五");
+        model.addAttribute("user",user);
+    }
 
     @ModelAttribute("user2")
     public User testModelAttribute3(){

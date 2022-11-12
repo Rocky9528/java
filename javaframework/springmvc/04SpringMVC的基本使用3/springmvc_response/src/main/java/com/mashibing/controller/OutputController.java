@@ -24,7 +24,7 @@ import java.util.Map;
  *
  */
 @Controller
-@SessionAttributes(types = String.class)
+@SessionAttributes(value = {"username","username1"})//types = String.class
 public class OutputController {
 
     @RequestMapping("/output")
@@ -70,6 +70,7 @@ public class OutputController {
     @RequestMapping("/testSession")
     public String testSession(Model model){
         model.addAttribute("username","zhangsan");
+        model.addAttribute("username1","zhangsan1");
         return "success";
     }
 }

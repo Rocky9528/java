@@ -1,10 +1,7 @@
 package com.mashibing.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.CookieValue;
-import org.springframework.web.bind.annotation.RequestHeader;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 public class RequestController {
@@ -26,6 +23,7 @@ public class RequestController {
      */
     @RequestMapping("/testRequest")
     public String testRequest(@RequestParam(value = "username",required = false,defaultValue = "lisi") String name){
+
         System.out.println(name);
         return "success";
     }

@@ -54,13 +54,13 @@ public class HelloController{
      *      **：替代多层路径
      * 如果能匹配到多个请求，那么优先是精准匹配，其次是模糊匹配
     * */
-    @RequestMapping( value = "/hello",headers = {"User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36"})
+    @RequestMapping( value = "/hello",headers = {"User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"})
     public String hello(Map<String,String> map){
         map.put("hello","hello,Springmvc");
         return "hello";
     }
 
-    @RequestMapping( value = "/hello*")
+    @RequestMapping( value = "/hello1*")
     public String hello2(Map<String,String> map){
         map.put("hello","hello,heihei");
         return "hello";

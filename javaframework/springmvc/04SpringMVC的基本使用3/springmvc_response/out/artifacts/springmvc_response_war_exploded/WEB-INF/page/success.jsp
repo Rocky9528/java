@@ -12,13 +12,13 @@
 </head>
 <body>
 欢迎<br>
-${msg}<br>
 page:${pageScope.msg}<br>
 request:${requestScope.msg}<br>
 session:${sessionScope.msg}<br>
 application:${applicationScope.msg}<br>
 <hr>
-session:${sessionScope.username}<br>
+session:${sessionScope.username}  ${sessionScope.username1}   ${sessionScope.get("user")}  <br>
 request:${requestScope.username}<br>
+
 </body>
 </html>

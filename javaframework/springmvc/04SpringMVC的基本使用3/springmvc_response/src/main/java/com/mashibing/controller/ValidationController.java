@@ -17,8 +17,31 @@ import java.util.Map;
 public class ValidationController {
 
     @Validated
-    @RequestMapping("/validation")
+    @RequestMapping("/validation" )
     public String validate(@Valid Person person, BindingResult bindingResult, Model model){
+        System.out.println(person);
+        Map<String,Object> map = new HashMap<String,Object>();
+        if(bindingResult.hasErrors()){
+            System.out.println("登陆失败");
+            //获取到当前所有的错误
+            List<FieldError> fieldErrors = bindingResult.getFieldErrors();
+            for (FieldError fieldError : fieldErrors) {
+                System.out.println(fieldError.getField());
+                System.out.println(fieldError.getDefaultMessage());
+                map.put(fieldError.getField(),fieldError.getDefaultMessage());
+            }
+            model.addAttribute("errors",map);
+            return "forward:/login.jsp";
+//            return "redirect:/login.jsp";
+        }else{
+            System.out.println("登陆成功");
+            return "success";
+        }
+    }
+
+    @Validated
+    @RequestMapping("/dataValidate" )
+    public String dataValidate(@Valid Person person, BindingResult bindingResult, Model model){
         System.out.println(person);
         Map<String,Object> map = new HashMap<String,Object>();
         if(bindingResult.hasErrors()){

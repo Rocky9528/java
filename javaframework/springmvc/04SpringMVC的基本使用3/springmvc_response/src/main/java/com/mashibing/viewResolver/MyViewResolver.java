@@ -8,8 +8,8 @@ import org.springframework.web.servlet.ViewResolver;
 
 import java.util.Locale;
 
-@Component
-@Order(1)
+//@Component
+//@Order(1)
 public class MyViewResolver implements ViewResolver, Ordered {
 
     private int order = 0;

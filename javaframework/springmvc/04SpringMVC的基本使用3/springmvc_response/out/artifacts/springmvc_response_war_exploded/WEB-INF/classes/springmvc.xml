@@ -15,17 +15,20 @@
         <property name="suffix" value=".jsp"></property>
         <property name="prefix" value="/WEB-INF/page/"></property>
     </bean>
-<!--    <bean class="com.mashibing.viewResolver.MyViewResolver">-->
-<!--        <property name="order" value="1"></property>-->
-<!--    </bean>-->
+    <bean class="com.mashibing.viewResolver.MyViewResolver">
+        <property name="order" value="1"></property>
+    </bean>
 
     <bean id="myConverter" class="com.mashibing.converter.MyConverter"></bean>
+    <bean id="myConverter2" class="com.mashibing.converter.MyConverter2"></bean>
     <!--添加自定义的类型转换器到ConversionServiceFactoryBean中-->
     <bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
         <property name="converters">
             <set>
                 <ref bean="myConverter"></ref>
+                <ref bean="myConverter2"></ref>
             </set>
         </property>
     </bean>
+
 </beans>

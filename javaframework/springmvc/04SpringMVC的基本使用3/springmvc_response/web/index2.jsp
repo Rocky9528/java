@@ -24,6 +24,6 @@
   birth:<input type="text" name="birth"><br>
   <input type="submit" value="提交">
 </form>
- <%-- <img src="${ctp}/images/timg.jpg">--%>
+  <img src="${ctp}/images/timg.jpg">
   </body>
 </html>

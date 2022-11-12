@@ -13,7 +13,7 @@
         但是需要注意的是，配置文件的名称必须是  (DispatcherServlet的servlet-name)-servlet.xml
         -->
         <init-param>
-            <param-name>contextConfigLocationA</param-name>
+            <param-name>contextConfigLocation</param-name>
             <param-value>classpath:springmvc.xml</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>

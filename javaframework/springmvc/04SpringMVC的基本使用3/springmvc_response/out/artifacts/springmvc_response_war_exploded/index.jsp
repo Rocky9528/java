@@ -16,10 +16,20 @@
   <body>
 666666666<br>
 请按照id-name-age-password的方式输入数据<br>
+<form action="${ctp}/convertertest" method="post">
+  <input type="text" name="user"><br>
+  <input type="submit" value="提交">
+</form>
+
 <form action="${ctp}/converter" method="post">
   <input type="text" name="user"><br>
   <input type="submit" value="提交">
 </form>
- <%-- <img src="${ctp}/images/timg.jpg">--%>
+
+<form action="${ctp}/converter2" method="post">
+  <input type="text" name="person" /><br>
+  <input type="submit" value="提交2">
+</form>
+  <img src="${ctp}/images/timg.jpg">
   </body>
 </html>

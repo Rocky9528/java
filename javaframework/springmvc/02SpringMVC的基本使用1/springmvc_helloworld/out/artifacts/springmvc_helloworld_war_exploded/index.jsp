@@ -14,6 +14,7 @@
     pageContext.setAttribute("ctp",request.getContextPath());
   %>
   <body>
+  ctp：${ctp}
   <form action="${ctp}/hello/hello" method="post">
     <input type="text" name="username"><br>
     <input type="submit" value="提交">

@@ -8,6 +8,6 @@
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/page/"></property>
         <property name="suffix" value=".jsp"></property>
-        <property name="viewClass" value="com.mashibing.MyView"></property>
+        <property name="viewClass" value="com.mashibing.MyResourceView"></property>
     </bean>
 </beans>

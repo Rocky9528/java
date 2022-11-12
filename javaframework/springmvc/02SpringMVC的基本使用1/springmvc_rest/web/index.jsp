@@ -19,8 +19,8 @@
   </form>
   <form action="${ctp}/user/user" method="post">
     <input type="hidden" name="_method" value="put">
-<%--    <input type="text" name="name">--%>
-<%--    <input type="text" name="id">--%>
+    <input type="text" name="name">
+    <input type="text" name="id">
     <input type="submit" value="更新">
   </form>
   <form action="${ctp}/user/user" method="post">
@@ -29,6 +29,6 @@
   </form>
 
 
-  <a href="${ctp}/user/user">查询</a>
+  <a href="${ctp}/user/user?id=1&name=张三">查询</a>
   </body>
 </html>

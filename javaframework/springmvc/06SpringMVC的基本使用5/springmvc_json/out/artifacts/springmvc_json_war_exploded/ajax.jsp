@@ -16,6 +16,9 @@
 %>
 <body>
 <a href="${ctp}/json">获取用户信息</a>
+
+<a href="${ctp}/json">超链接</a>
+
 <div>
 
 </div>
