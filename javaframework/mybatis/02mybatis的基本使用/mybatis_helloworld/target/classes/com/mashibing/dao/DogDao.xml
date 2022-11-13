@@ -19,11 +19,12 @@
         property:实体类中对应的属性值
         column：表中字段的名称
         -->
-        <!--<id property="id" column="id"></id>-->
+        <id property="id" column="id"></id>
         <!--除主键外的其他字段映射-->
         <result property="name" column="dname"></result>
         <result property="age" column="dage"></result>
         <result property="gender" column="dgender"></result>
+
     </resultMap>
 
     <select id="selectDogById" resultMap="myDog">

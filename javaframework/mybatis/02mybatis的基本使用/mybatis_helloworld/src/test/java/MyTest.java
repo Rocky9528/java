@@ -3,6 +3,7 @@ import com.mashibing.bean.User;
 import com.mashibing.dao.EmpDao;
 import com.mashibing.dao.UserDao;
 import com.mashibing.dao.UserDaoAnnotation;
+import org.apache.ibatis.annotations.Arg;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -40,8 +41,12 @@ public class MyTest {
         //获取对应的映射接口对象
         EmpDao mapper = sqlSession.getMapper(EmpDao.class);
         //执行具体的sql语句
-        Emp emp = mapper.selectEmpByEmpno(7369);
-        System.out.println(emp);
+        Emp emp1 = mapper.selectEmpByEmpno1(7369);
+        System.out.println(emp1);
+
+        Emp emp2 = mapper.selectEmpByEmpno2(7369,100);
+        System.out.println(emp2);
+
         //关闭会话
         sqlSession.close();
 
@@ -66,8 +71,8 @@ public class MyTest {
         EmpDao mapper = sqlSession.getMapper(EmpDao.class);
         Emp emp = new Emp();
         emp.setEmpno(3333);
-        emp.setEname("zhangsan");
-        emp.setSal(500.0);
+        emp.setEname("zhangsan1");
+        emp.setSal(501.0);
         Integer update = mapper.update(emp);
         System.out.println(update);
         sqlSession.commit();
@@ -90,6 +95,10 @@ public class MyTest {
         //获取与数据库相关的会话
         SqlSession sqlSession = sqlSessionFactory.openSession();
         //获取对应的映射接口对象
+        UserDaoAnnotation mapper1 = sqlSession.getMapper(UserDaoAnnotation.class);
+        User user1 = mapper1.selectUserById(1);
+        System.out.println(user1);
+
         UserDao mapper = sqlSession.getMapper(UserDao.class);
         //执行具体的sql语句
         User user = mapper.selectUserById(1);

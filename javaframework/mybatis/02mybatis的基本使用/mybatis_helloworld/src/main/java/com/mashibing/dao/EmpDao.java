@@ -14,7 +14,8 @@ public interface EmpDao {
     public Integer save(Emp emp);
     public Integer update(Emp emp);
     public Integer delete(Integer empno);
-    public Emp selectEmpByEmpno(Integer empno);
+    public Emp selectEmpByEmpno1(Integer empno);
+    public Emp selectEmpByEmpno2(@Param("empno") Integer empno,@Param("sal") Integer sal);
     public Map<Object,Object> selectEmpByEmpnoReturnMap(Integer empno);
 
     public List<Emp> selectAll();

@@ -44,9 +44,13 @@
         select * from emp where empno = #{aaa} and sal >#{ccc}
     </select>
 
-    <select id="selectEmpByEmpno" resultType="com.mashibing.bean.Emp">
+    <select id="selectEmpByEmpno1" resultType="com.mashibing.bean.Emp">
+        select * from emp where empno = #{empno}
+    </select>
+    <select id="selectEmpByEmpno2" resultType="com.mashibing.bean.Emp">
         select * from emp where empno = #{empno} and sal >#{sal}
     </select>
+
     <!--当返回值是map结构的时候，会把查询结构的字段值作为key，结果作为value-->
     <select id="selectEmpByEmpnoReturnMap" resultType="map">
         select * from emp where empno = #{empno}

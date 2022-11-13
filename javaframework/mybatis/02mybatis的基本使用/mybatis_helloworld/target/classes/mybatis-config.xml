@@ -15,6 +15,7 @@
     <settings>
         <!--开启驼峰标识验证-->
         <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="logImpl" value="LOG4J"/>
     </settings>
     <!--typeAliases:表示在引入实体类的名称时候，可以使用别名，而不需要写完全限定名-->
     <typeAliases>
