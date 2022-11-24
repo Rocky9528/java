@@ -12,6 +12,7 @@ public class Emp implements Serializable {
     private Date hiredate;
     private Double sal;
     private Double comm;
+    private Integer deptno;
     private Dept dept;
 
     public Integer getEmpno() {
@@ -70,6 +71,14 @@ public class Emp implements Serializable {
         this.comm = comm;
     }
 
+    public Integer getDeptno() {
+        return deptno;
+    }
+
+    public void setDeptno(Integer deptno) {
+        this.deptno = deptno;
+    }
+
     public Dept getDept() {
         return dept;
     }
@@ -88,6 +97,7 @@ public class Emp implements Serializable {
                 ", hiredate=" + hiredate +
                 ", sal=" + sal +
                 ", comm=" + comm +
+                ", deptno=" + deptno +
                 ", dept=" + dept +
                 '}';
     }

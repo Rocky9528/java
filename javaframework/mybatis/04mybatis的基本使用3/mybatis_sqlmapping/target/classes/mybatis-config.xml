@@ -10,7 +10,12 @@
     resource:表示从当前项目的类路径中进行加载，如果用的是idea指的是resource资源目录下的配置文件
     url:可以从当前文件系统的磁盘目录查找配置，也可以从网络上的资源进行引入
     -->
-    <properties resource="db.properties" ></properties>
+    <properties resource="db.properties" >
+        <!--<property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/test?serverTimezone=UTC"/>
+        <property name="username" value="root"/>
+        <property name="password" value="123456"/>-->
+    </properties>
     <!--可以影响mybatis运行时的行为，包含N多个属性，需要什么引入什么-->
     <settings>
         <!--开启驼峰标识验证-->

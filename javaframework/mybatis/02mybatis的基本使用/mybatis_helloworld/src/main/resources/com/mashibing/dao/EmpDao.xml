@@ -27,22 +27,13 @@
     2、如果是多个参数：
         我们在获取参数值的时候，就不能简单的通过#{}来获取了,只能通过arg0,arg1,param1,param2...这样的方式来获取参数的值
         原因在于，mybatis在传入多个参数的时候，会讲这些参数的结果封装到map结构中，在map中key值就是(arg0,arg1,...)
-        (param1,param2...),这种方式非常不友好，没有办法根据属性名来获取具体的参数值
+         (param1,param2...),这种方式非常不友好，没有办法根据属性名来获取具体的参数值
+         Dao中参数从1开始    xml中从0开始
         如果想要使用参数的话，可以进行如下的设置：
         public List<Emp> selectEmpByEmpnoAndSal2(@Param("empno") Integer empno, @Param("sal") Double sal);
             这样的方式其实是根据@Param来进行参数的获取
     3、自定义map结构
     -->
-    <select id="selectEmpByEmpnoAndSal3" resultType="com.mashibing.bean.Emp">
-        select * from emp where empno = #{empno} and sal >#{sal}
-    </select>
-    <select id="selectEmpByEmpnoAndSal2" resultType="com.mashibing.bean.Emp">
-        select * from emp where empno = #{empno} and sal >#{sal}
-    </select>
-
-    <select id="selectEmpByEmpnoAndSal" resultType="com.mashibing.bean.Emp">
-        select * from emp where empno = #{aaa} and sal >#{ccc}
-    </select>
 
     <select id="selectEmpByEmpno1" resultType="com.mashibing.bean.Emp">
         select * from emp where empno = #{empno}
@@ -51,30 +42,17 @@
         select * from emp where empno = #{empno} and sal >#{sal}
     </select>
 
-    <!--当返回值是map结构的时候，会把查询结构的字段值作为key，结果作为value-->
-    <select id="selectEmpByEmpnoReturnMap" resultType="map">
-        select * from emp where empno = #{empno}
-    </select>
-
-<!--当需要返回的结果是一个map的集合的时候，同时map中包含多个对象，那么此时必须要在dao的方法上添加@MapKey注解，来标识到底是哪一个属性值作为key-->
-    <select id="selectAll2" resultType="Emp">
-        select * from emp
-    </select>
-    <select id="selectAll" resultType="Emp">
-        select * from emp
-    </select>
-
     <!--insert delete update分别用来标识不同类型的sql语句
-    id:用来标识跟dao接口中匹配的方法，必须与方法的名字一一对应上
-    flushCache：用来标识当前sql语句的结果是否进入二级缓存
-    statementType：用来选择执行sql语句的方式
-            statement：最基本的jdbc的操作，用来表示一个sql语句，不能防止sql注入
-            PREPARED: preareStatement：采用预编译的方式，能够防止sql注入，设置参数的时候需要该对象来进行设置
-            CALLABLE：调用存储过程
-    useGeneratedKeys：放完成插入操作的时候，可以将自增生成的主键值返回到具体的对象
-           keyProperty：指定返回的主键要赋值到哪个属性中
-            在编写sql语句的过程中，无论你是否配置了驼峰标识的识别settting，都需要在sql语句中写具体的表的属性名，不能写对象名称
-    -->
+id:用来标识跟dao接口中匹配的方法，必须与方法的名字一一对应上
+flushCache：用来标识当前sql语句的结果是否进入二级缓存
+statementType：用来选择执行sql语句的方式
+        statement：最基本的jdbc的操作，用来表示一个sql语句，不能防止sql注入
+        PREPARED: preareStatement：采用预编译的方式，能够防止sql注入，设置参数的时候需要该对象来进行设置
+        CALLABLE：调用存储过程
+useGeneratedKeys：放完成插入操作的时候，可以将自增生成的主键值返回到具体的对象
+       keyProperty：指定返回的主键要赋值到哪个属性中
+        在编写sql语句的过程中，无论你是否配置了驼峰标识的识别settting，都需要在sql语句中写具体的表的属性名，不能写对象名称
+-->
     <insert id="save" >
         insert into emp(empno,ename) values(#{empno},#{ename})
     </insert>
@@ -84,6 +62,36 @@
     <delete id="delete">
         delete from emp where empno = #{empno}
     </delete>
+
+    <!--当需要返回的结果是一个map的集合的时候，同时map中包含多个对象，那么此时必须要在dao的方法上添加@MapKey注解，来标识到底是哪一个属性值作为key-->
+    <select id="selectAll" resultType="Emp">
+        select * from emp
+    </select>
+    <select id="selectAll2" resultType="Emp">
+        select * from emp
+    </select>
+
+    <select id="selectEmpByEmpnoAndSal" resultType="com.mashibing.bean.Emp">
+        select * from emp where empno = #{empno} and sal >#{sal}
+    </select>
+    <select id="selectEmpByEmpnoAndSal22" resultType="com.mashibing.bean.Emp">
+        select * from emp where empno = #{arg0} and sal >#{arg1}
+    </select>
+    <select id="selectEmpByEmpnoAndSal2" resultType="com.mashibing.bean.Emp">
+        select * from emp where empno = #{empno} and sal >#{sal}
+    </select>
+    <select id="selectEmpByEmpnoAndSal3" resultType="com.mashibing.bean.Emp">
+        select * from emp where empno = #{empno} and sal >#{sal}
+    </select>
+
+    <!--当返回值是map结构的时候，会把查询结构的字段值作为key，结果作为value-->
+    <select id="selectEmpByEmpnoReturnMap" resultType="map">
+        select * from emp where empno = #{empno}
+    </select>
+
+
+
+
     <!--===============================================================================-->
     <!--如果需要定义一个自定义结果集，那么该如何进行处理resultMap-->
 

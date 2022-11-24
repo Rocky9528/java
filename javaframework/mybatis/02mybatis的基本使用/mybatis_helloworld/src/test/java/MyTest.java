@@ -44,7 +44,11 @@ public class MyTest {
         Emp emp1 = mapper.selectEmpByEmpno1(7369);
         System.out.println(emp1);
 
-        Emp emp2 = mapper.selectEmpByEmpno2(7369,100);
+        Emp emp=new Emp();
+        emp.setEmpno(7369);
+        emp.setSal(100.00);
+
+        Emp emp2 = mapper.selectEmpByEmpno2(7369,500);
         System.out.println(emp2);
 
         //关闭会话
@@ -129,6 +133,10 @@ public class MyTest {
         for (Emp emp : list) {
             System.out.println(emp);
         }
+
+        Map<String, Emp> stringEmpMap = mapper.selectAll2();
+        System.out.println(stringEmpMap);
+
         sqlSession.commit();
         sqlSession.close();
     }
@@ -137,12 +145,33 @@ public class MyTest {
     public void test08(){
         SqlSession sqlSession = sqlSessionFactory.openSession();
         EmpDao mapper = sqlSession.getMapper(EmpDao.class);
+
+        Emp emp=new Emp();
+        emp.setEmpno(7369);
+        emp.setSal(500.0);
+        List<Emp> emps = mapper.selectEmpByEmpnoAndSal(emp);
+        for(Emp emp1 :emps){
+            System.out.println(emp1);
+        }
+
+        List<Emp> emps22 = mapper.selectEmpByEmpnoAndSal22(7369, 500.0);
+        for(Emp emp22 :emps22){
+            System.out.println(emp22);
+        }
+
+
+        List<Emp> emps2 = mapper.selectEmpByEmpnoAndSal2(7369, 500.0);
+        for(Emp emp2 :emps2){
+            System.out.println(emp2);
+        }
+
+
         Map<String,Object> map = new HashMap<>();
         map.put("empno",7369);
         map.put("sal",500.0);
         List<Emp> list = mapper.selectEmpByEmpnoAndSal3(map);
-        for (Emp emp : list) {
-            System.out.println(emp);
+        for (Emp emp3 : list) {
+            System.out.println(emp3);
         }
         sqlSession.commit();
         sqlSession.close();

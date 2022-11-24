@@ -97,7 +97,7 @@ public class MyTest {
         EmpDao mapper = sqlSession.getMapper(EmpDao.class);
         Emp emp = new Emp();
         emp.setEmpno(7369);
-        emp.setEname("SMITH");
+//        emp.setEname("SMITH");
         emp.setSal(1000.0);
         Emp emp2 = mapper.selectEmpByCondition(emp);
         System.out.println(emp2);
@@ -152,6 +152,7 @@ public class MyTest {
         Emp emp = mapper.selectEmpByEmpno(7369);
         System.out.println(emp);
         System.out.println("==================");
+        emp = mapper.selectEmpByEmpno(7369);
         emp.setEname("Teacher");
         Integer update = mapper2.update(emp);
         System.out.println(update);

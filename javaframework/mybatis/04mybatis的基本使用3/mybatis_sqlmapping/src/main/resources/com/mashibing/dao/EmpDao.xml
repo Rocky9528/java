@@ -4,27 +4,27 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.mashibing.dao.EmpDao">
     <!--将每一个属性值都映射成对象中的数据，如果有实体类对象，就写成对象.属性的方式-->
-    <!--    <resultMap id="myEmp" type="com.mashibing.bean.Emp">-->
-    <!--        <id column="empno" property="empno"></id>-->
-    <!--        <result column="ename" property="ename"></result>-->
-    <!--        <result column="job" property="job"></result>-->
-    <!--        <result column="mgr" property="mgr"></result>-->
-    <!--        <result column="hiredate" property="hiredate"></result>-->
-    <!--        <result column="sal" property="sal"></result>-->
-    <!--        <result column="comm" property="comm"></result>-->
-    <!--        <result column="deptno" property="dept.deptno"></result>-->
-    <!--        <result column="dname" property="dept.dname"></result>-->
-    <!--        <result column="loc" property="dept.loc"></result>-->
-    <!--    </resultMap>-->
+<!--        <resultMap id="myEmp" type="com.mashibing.bean.Emp">-->
+<!--            <id column="empno" property="empno"></id>-->
+<!--            <result column="ename" property="ename"></result>-->
+<!--            <result column="job" property="job"></result>-->
+<!--            <result column="mgr" property="mgr"></result>-->
+<!--            <result column="hiredate" property="hiredate"></result>-->
+<!--            <result column="sal" property="sal"></result>-->
+<!--            <result column="comm" property="comm"></result>-->
+<!--            <result column="deptno" property="dept.deptno"></result>-->
+<!--            <result column="dname" property="dept.dname"></result>-->
+<!--            <result column="loc" property="dept.loc"></result>-->
+<!--        </resultMap>-->
 <!--使用第二种方式-->
     <resultMap id="myEmp" type="com.mashibing.bean.Emp">
-        <id column="empno" property="empno"></id>
-        <result column="ename" property="ename"></result>
-        <result column="job" property="job"></result>
-        <result column="mgr" property="mgr"></result>
-        <result column="hiredate" property="hiredate"></result>
-        <result column="sal" property="sal"></result>
-        <result column="comm" property="comm"></result>
+        <id property="empno" column="empno"></id>
+        <result property="ename" column="ename"></result>
+        <result property="job" column="job"></result>
+        <result property="mgr" column="mgr"></result>
+        <result property="hiredate" column="hiredate"></result>
+        <result property="sal" column="sal"></result>
+        <result property="comm" column="comm"></result>
         <association property="dept" javaType="com.mashibing.bean.Dept">
             <id property="deptno" column="deptno"></id>
             <result property="dname" column="dname"></result>
@@ -39,13 +39,13 @@
         select * from emp where empno = #{empno}
     </select>
     <resultMap id="empDept" type="com.mashibing.bean.Emp">
-        <id column="empno" property="empno"></id>
-        <result column="ename" property="ename"></result>
-        <result column="job" property="job"></result>
-        <result column="mgr" property="mgr"></result>
-        <result column="hiredate" property="hiredate"></result>
-        <result column="sal" property="sal"></result>
-        <result column="comm" property="comm"></result>
+        <id property="empno" column="empno"></id>
+        <result property="ename" column="ename"></result>
+        <result property="job" column="job"></result>
+        <result property="mgr" column="mgr"></result>
+        <result property="hiredate" column="hiredate"></result>
+        <result property="sal" column="sal"></result>
+        <result property="comm" column="comm"></result>
         <association property="dept" select="com.mashibing.dao.DeptDao.selectDeptByStep" column="deptno"></association>
     </resultMap>
 
@@ -56,11 +56,11 @@
     <!--
     -->
     <!--if动态sql-->
- <!--   <select id="selectEmpByCondition" resultType="com.mashibing.bean.Emp">
+<!--    <select id="selectEmpByCondition" resultType="com.mashibing.bean.Emp">
         select * from emp
         <where>
             <if test="empno!=null">
-                empno > #{empno}
+                empno = #{empno}
             </if>
             <if test="ename!=null">
                 and ename=#{ename}
@@ -69,7 +69,7 @@
 
     </select>-->
 <!--choose动态sql-->
-    <!--<select id="selectEmpByCondition" resultType="com.mashibing.bean.Emp">
+<!--    <select id="selectEmpByCondition" resultType="com.mashibing.bean.Emp">
         select * from emp
         <where>
            <choose>
@@ -98,10 +98,10 @@
         select * from emp
         <trim prefix="where" prefixOverrides="and" suffixOverrides="and|or">
                 <if test="empno!=null">
-                    empno = #{empno} and
+                     empno = #{empno} and
                 </if>
                 <if test="ename!=null">
-                    ename=#{ename} or
+                     ename=#{ename} or
                 </if>
         </trim>
 
@@ -172,5 +172,5 @@
 
     -->
 
-    <cache type="org.mybatis.caches.ehcache.EhcacheCache"></cache>
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache" ></cache>
 </mapper>

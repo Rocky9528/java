@@ -1,10 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="45d084b4-90b4-4989-883f-fd804e937d24" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="45d084b4-90b4-4989-883f-fd804e937d24" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_generator/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_generator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_generator_xml/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_generator_xml/mbg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_generator_xml/src/main/java/com/rocky/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_generator_xml/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_generator_xml/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_generator_xml/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_generator_xml/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02mybatis的基本使用/mybatis_helloworld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02mybatis的基本使用/mybatis_helloworld/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02mybatis的基本使用/mybatis_helloworld/src/main/java/com/mashibing/dao/EmpDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02mybatis的基本使用/mybatis_helloworld/src/main/java/com/mashibing/dao/EmpDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02mybatis的基本使用/mybatis_helloworld/src/main/resources/com/mashibing/dao/EmpDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02mybatis的基本使用/mybatis_helloworld/src/main/resources/com/mashibing/dao/EmpDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02mybatis的基本使用/mybatis_helloworld/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02mybatis的基本使用/mybatis_helloworld/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02mybatis的基本使用/mybatis_helloworld/target/classes/com/mashibing/dao/EmpDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../02mybatis的基本使用/mybatis_helloworld/target/classes/com/mashibing/dao/EmpDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02mybatis的基本使用/mybatis_helloworld/target/classes/com/mashibing/dao/EmpDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02mybatis的基本使用/mybatis_helloworld/target/classes/com/mashibing/dao/EmpDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02mybatis的基本使用/mybatis_helloworld/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../02mybatis的基本使用/mybatis_helloworld/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02mybatis的基本使用/mybatis_helloworld/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../02mybatis的基本使用/mybatis_helloworld/target/test-classes/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/bean/Dept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/bean/Dept.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/bean/Emp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/bean/Emp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/dao/DeptDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/dao/DeptDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/dao/EmpDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/dao/EmpDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_generator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_generator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_generator/src/main/java/com/mashibing/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_generator/src/main/java/com/mashibing/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/src/main/java/com/mashibing/bean/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/src/main/java/com/mashibing/bean/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/src/main/resources/com/mashibing/dao/DeptDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/src/main/resources/com/mashibing/dao/DeptDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/src/main/resources/com/mashibing/dao/EmpDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/src/main/resources/com/mashibing/dao/EmpDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/target/classes/com/mashibing/bean/Emp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/target/classes/com/mashibing/bean/Emp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/target/classes/com/mashibing/dao/DeptDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/target/classes/com/mashibing/dao/DeptDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/target/classes/com/mashibing/dao/EmpDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/target/classes/com/mashibing/dao/EmpDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04mybatis的基本使用3/mybatis_sqlmapping/target/test-classes/MyTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,82 +58,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/dao/EmpDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/mashibing/dao/EmpDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-693">
-              <caret line="127" column="19" lean-forward="true" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/bean/Dept.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/bean/Emp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1229#1230#0" expanded="true" />
-                <element signature="e#1256#1257#0" expanded="true" />
-                <element signature="e#1294#1295#0" expanded="true" />
-                <element signature="e#1326#1327#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="171" column="19" lean-forward="true" selection-start-line="171" selection-start-column="16" selection-end-line="171" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -96,6 +65,9 @@
         <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -113,17 +85,15 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="C:/apache-maven-3.5.4" />
         <option name="userSettingsFile" value="C:\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -143,6 +113,8 @@
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectId" id="2HXlGRFiorXxLPN4UhyoueGD46W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -336,15 +308,18 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com/mashibing/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="工件" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
   </component>
   <component name="RecentsManager">
@@ -357,41 +332,29 @@
       <recent name="D:\IdeaProjects\mybatis_sqlmapping" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.MyTest.test09">
+  <component name="RunManager" selected="JUnit.MyTest.test01">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_sqlmapping" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="test05" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.test06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_sqlmapping" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="test06" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -449,14 +412,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.test01" />
+        <item itemvalue="JUnit.MyTest.test02" />
         <item itemvalue="JUnit.MyTest.test09" />
         <item itemvalue="JUnit.MyTest.test08" />
         <item itemvalue="JUnit.MyTest.test07" />
-        <item itemvalue="JUnit.MyTest.test06" />
-        <item itemvalue="JUnit.MyTest.test05" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -469,6 +433,12 @@
       <updated>1585402886095</updated>
       <workItem from="1585402888763" duration="2321000" />
       <workItem from="1585463184306" duration="8059000" />
+      <workItem from="1668439214415" duration="24000" />
+      <workItem from="1668439312532" duration="719000" />
+      <workItem from="1668515432246" duration="5271000" />
+      <workItem from="1668599862969" duration="3299000" />
+      <workItem from="1668919089190" duration="913000" />
+      <workItem from="1669266552399" duration="600000" />
     </task>
     <servers />
   </component>
@@ -582,7 +552,18 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/MyTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/mashibing/dao/DogDao.xml" />
